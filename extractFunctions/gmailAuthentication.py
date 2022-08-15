@@ -31,7 +31,7 @@ def main():
         with open('token.json', 'w') as token:
             token.write(creds.to_json())
     process(creds)      
-
+    
 def process(creds):
     extractUnreadEmails(creds)
 
