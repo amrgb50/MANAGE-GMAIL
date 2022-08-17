@@ -7,6 +7,8 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import pandas as pd
+import dateutil.parser as parser
+import datetime
 
 def extractUnreadEmails(creds):
     try:
@@ -19,17 +21,25 @@ def extractUnreadEmails(creds):
             for msg in message_ids :
                 msg_id = msg['id']
                 msg_ids.append(msg_id)
+                dt = None
+                frm = None
+                #need to improve this part for batch request. 
                 payload = service.users().messages().get(userId = 'me', id = msg_id).execute()
-                id = payload['id']
-                labelIds = payload['labelIds']
+                #
+                #to check  : epoch to datetime
+                #print(int(payload["internalDate"]))
+                #my_time = datetime.datetime.fromtimestamp(int(payload["internalDate"]))
+                #labelIds = payload['labelIds']
                 for headers in payload['payload']['headers']:
                     if headers['name'] == 'Date' :
-                        dt = headers['value']
+                        dt = parser.parse(headers['value']) 
                     elif headers['name'] == 'From' :
-                        frm = headers['value']
-                msglist.append([msg_id,id,labelIds,dt,frm])
-            df = pd.DataFrame(msglist,columns=['msg_id','payloadid','labels','receivedDt','from'])
-            df.to_csv('data/extract.csv', encoding='utf-8')
+                        frm = headers['value']           
+                msglist.append([msg_id,dt.date(),frm])
+            df = pd.DataFrame(msglist,columns=['msg_id','receivedDt','from'])
+            df.set_index('msg_id')
+            df['receivedDt']= df['receivedDt'].astype('datetime64[ns]')
+            print(df.info())
         else : 
             print("No emails to read")
             return
