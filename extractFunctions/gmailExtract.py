@@ -38,8 +38,7 @@ def extractUnreadEmails(creds):
                         frm = headers['value']
                         frmName, frmEmail = frm.replace(">",'').split(" <")
                 msglist.append([msg_id,dt.date(),frmName,frmEmail])
-            df = pd.DataFrame(msglist,columns=['msg_id','receivedDt','frmName','frmEmail'])
-            df.set_index('msg_id')
+            df = pd.DataFrame(msglist,columns=['msg_id','receivedDt','frmName','frmEmail']).set_index('msg_id')
             df['receivedDt']= df['receivedDt'].astype('datetime64[ns]')
         else : 
             print("No emails to read")
