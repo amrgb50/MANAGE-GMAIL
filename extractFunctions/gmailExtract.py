@@ -8,7 +8,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import pandas as pd
 import dateutil.parser as parser
-import datetime
+
 
 def extractUnreadEmails(creds):
     try:
@@ -22,7 +22,8 @@ def extractUnreadEmails(creds):
                 msg_id = msg['id']
                 msg_ids.append(msg_id)
                 dt = None
-                frm = None
+                frmEmail = None
+                frmName = None
                 #need to improve this part for batch request. 
                 payload = service.users().messages().get(userId = 'me', id = msg_id).execute()
                 #
@@ -34,12 +35,12 @@ def extractUnreadEmails(creds):
                     if headers['name'] == 'Date' :
                         dt = parser.parse(headers['value']) 
                     elif headers['name'] == 'From' :
-                        frm = headers['value']           
-                msglist.append([msg_id,dt.date(),frm])
-            df = pd.DataFrame(msglist,columns=['msg_id','receivedDt','from'])
+                        frm = headers['value']
+                        frmName, frmEmail = frm.replace(">",'').split(" <")
+                msglist.append([msg_id,dt.date(),frmName,frmEmail])
+            df = pd.DataFrame(msglist,columns=['msg_id','receivedDt','frmName','frmEmail'])
             df.set_index('msg_id')
             df['receivedDt']= df['receivedDt'].astype('datetime64[ns]')
-            print(df.info())
         else : 
             print("No emails to read")
             return
