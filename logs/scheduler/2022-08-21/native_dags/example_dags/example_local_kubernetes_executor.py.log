@@ -1,0 +1,330 @@
+[2022-08-21 16:14:48,506] {processor.py:153} INFO - Started process (PID=3377) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:14:48,506] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:14:48,507] {logging_mixin.py:115} INFO - [2022-08-21 16:14:48,507] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:14:48,541] {logging_mixin.py:115} INFO - [2022-08-21 16:14:48,540] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:14:48,541] {logging_mixin.py:115} INFO - [2022-08-21 16:14:48,541] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:14:48,541] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:14:48,578] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.073 seconds
+[2022-08-21 16:15:57,111] {processor.py:153} INFO - Started process (PID=3430) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:15:57,111] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:15:57,112] {logging_mixin.py:115} INFO - [2022-08-21 16:15:57,112] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:15:57,134] {logging_mixin.py:115} INFO - [2022-08-21 16:15:57,134] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:15:57,134] {logging_mixin.py:115} INFO - [2022-08-21 16:15:57,134] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:15:57,135] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:15:57,165] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2022-08-21 16:17:03,056] {processor.py:153} INFO - Started process (PID=3470) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:17:03,056] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:17:03,057] {logging_mixin.py:115} INFO - [2022-08-21 16:17:03,057] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:17:03,075] {logging_mixin.py:115} INFO - [2022-08-21 16:17:03,075] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:17:03,075] {logging_mixin.py:115} INFO - [2022-08-21 16:17:03,075] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:17:03,075] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:17:03,105] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.049 seconds
+[2022-08-21 16:28:34,416] {processor.py:153} INFO - Started process (PID=3556) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:28:34,422] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:28:34,423] {logging_mixin.py:115} INFO - [2022-08-21 16:28:34,423] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:28:34,449] {logging_mixin.py:115} INFO - [2022-08-21 16:28:34,449] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:28:34,449] {logging_mixin.py:115} INFO - [2022-08-21 16:28:34,449] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:28:34,450] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:28:34,480] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.064 seconds
+[2022-08-21 16:29:31,539] {processor.py:153} INFO - Started process (PID=3594) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:29:31,539] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:29:31,539] {logging_mixin.py:115} INFO - [2022-08-21 16:29:31,539] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:29:31,558] {logging_mixin.py:115} INFO - [2022-08-21 16:29:31,557] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:29:31,558] {logging_mixin.py:115} INFO - [2022-08-21 16:29:31,558] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:29:31,558] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:29:31,589] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.050 seconds
+[2022-08-21 16:30:28,833] {processor.py:153} INFO - Started process (PID=3630) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:30:28,833] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:30:28,833] {logging_mixin.py:115} INFO - [2022-08-21 16:30:28,833] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:30:28,852] {logging_mixin.py:115} INFO - [2022-08-21 16:30:28,852] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:30:28,852] {logging_mixin.py:115} INFO - [2022-08-21 16:30:28,852] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:30:28,852] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:30:28,883] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.050 seconds
+[2022-08-21 16:31:39,154] {processor.py:153} INFO - Started process (PID=3668) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:31:39,160] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:31:39,160] {logging_mixin.py:115} INFO - [2022-08-21 16:31:39,160] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:31:39,186] {logging_mixin.py:115} INFO - [2022-08-21 16:31:39,186] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:31:39,187] {logging_mixin.py:115} INFO - [2022-08-21 16:31:39,186] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:31:39,187] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:31:39,217] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.064 seconds
+[2022-08-21 16:32:38,512] {processor.py:153} INFO - Started process (PID=3711) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:32:38,518] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:32:38,518] {logging_mixin.py:115} INFO - [2022-08-21 16:32:38,518] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:32:38,544] {logging_mixin.py:115} INFO - [2022-08-21 16:32:38,543] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:32:38,544] {logging_mixin.py:115} INFO - [2022-08-21 16:32:38,544] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:32:38,544] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:32:38,579] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.068 seconds
+[2022-08-21 16:33:38,021] {processor.py:153} INFO - Started process (PID=3746) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:33:38,027] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:33:38,028] {logging_mixin.py:115} INFO - [2022-08-21 16:33:38,027] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:33:38,054] {logging_mixin.py:115} INFO - [2022-08-21 16:33:38,053] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:33:38,054] {logging_mixin.py:115} INFO - [2022-08-21 16:33:38,054] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:33:38,054] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:33:38,088] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.067 seconds
+[2022-08-21 16:34:37,719] {processor.py:153} INFO - Started process (PID=3783) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:34:37,724] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:34:37,724] {logging_mixin.py:115} INFO - [2022-08-21 16:34:37,724] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:34:37,748] {logging_mixin.py:115} INFO - [2022-08-21 16:34:37,748] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:34:37,748] {logging_mixin.py:115} INFO - [2022-08-21 16:34:37,748] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:34:37,748] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:34:37,780] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.062 seconds
+[2022-08-21 16:35:36,348] {processor.py:153} INFO - Started process (PID=3819) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:35:36,353] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:35:36,354] {logging_mixin.py:115} INFO - [2022-08-21 16:35:36,354] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:35:36,380] {logging_mixin.py:115} INFO - [2022-08-21 16:35:36,380] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:35:36,381] {logging_mixin.py:115} INFO - [2022-08-21 16:35:36,381] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:35:36,381] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:35:36,418] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.071 seconds
+[2022-08-21 16:36:40,276] {processor.py:153} INFO - Started process (PID=3860) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:36:40,282] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:36:40,283] {logging_mixin.py:115} INFO - [2022-08-21 16:36:40,283] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:36:40,308] {logging_mixin.py:115} INFO - [2022-08-21 16:36:40,308] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:36:40,308] {logging_mixin.py:115} INFO - [2022-08-21 16:36:40,308] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:36:40,309] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:36:40,339] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.063 seconds
+[2022-08-21 16:37:40,193] {processor.py:153} INFO - Started process (PID=3895) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:37:40,193] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:37:40,194] {logging_mixin.py:115} INFO - [2022-08-21 16:37:40,194] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:37:40,214] {logging_mixin.py:115} INFO - [2022-08-21 16:37:40,214] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:37:40,214] {logging_mixin.py:115} INFO - [2022-08-21 16:37:40,214] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:37:40,214] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:37:40,247] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2022-08-21 16:38:38,173] {processor.py:153} INFO - Started process (PID=3930) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:38:38,178] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:38:38,179] {logging_mixin.py:115} INFO - [2022-08-21 16:38:38,179] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:38:38,202] {logging_mixin.py:115} INFO - [2022-08-21 16:38:38,201] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:38:38,202] {logging_mixin.py:115} INFO - [2022-08-21 16:38:38,202] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:38:38,202] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:38:38,327] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.154 seconds
+[2022-08-21 16:39:40,901] {processor.py:153} INFO - Started process (PID=3968) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:39:40,901] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:39:40,901] {logging_mixin.py:115} INFO - [2022-08-21 16:39:40,901] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:39:40,920] {logging_mixin.py:115} INFO - [2022-08-21 16:39:40,919] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:39:40,920] {logging_mixin.py:115} INFO - [2022-08-21 16:39:40,920] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:39:40,920] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:39:40,949] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.049 seconds
+[2022-08-21 16:40:41,627] {processor.py:153} INFO - Started process (PID=4002) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:40:41,632] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:40:41,633] {logging_mixin.py:115} INFO - [2022-08-21 16:40:41,633] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:40:41,657] {logging_mixin.py:115} INFO - [2022-08-21 16:40:41,657] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:40:41,658] {logging_mixin.py:115} INFO - [2022-08-21 16:40:41,658] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:40:41,658] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:40:41,695] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.069 seconds
+[2022-08-21 16:41:44,339] {processor.py:153} INFO - Started process (PID=4041) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:41:44,340] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:41:44,340] {logging_mixin.py:115} INFO - [2022-08-21 16:41:44,340] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:41:44,359] {logging_mixin.py:115} INFO - [2022-08-21 16:41:44,359] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:41:44,360] {logging_mixin.py:115} INFO - [2022-08-21 16:41:44,360] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:41:44,360] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:41:44,393] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2022-08-21 16:42:45,429] {processor.py:153} INFO - Started process (PID=4078) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:42:45,429] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:42:45,429] {logging_mixin.py:115} INFO - [2022-08-21 16:42:45,429] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:42:45,449] {logging_mixin.py:115} INFO - [2022-08-21 16:42:45,448] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:42:45,449] {logging_mixin.py:115} INFO - [2022-08-21 16:42:45,449] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:42:45,449] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:42:45,481] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.053 seconds
+[2022-08-21 16:43:50,204] {processor.py:153} INFO - Started process (PID=4161) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:43:50,210] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:43:50,211] {logging_mixin.py:115} INFO - [2022-08-21 16:43:50,211] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:43:50,237] {logging_mixin.py:115} INFO - [2022-08-21 16:43:50,237] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:43:50,238] {logging_mixin.py:115} INFO - [2022-08-21 16:43:50,238] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:43:50,238] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:43:50,271] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.067 seconds
+[2022-08-21 16:44:54,350] {processor.py:153} INFO - Started process (PID=4269) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:44:54,356] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:44:54,357] {logging_mixin.py:115} INFO - [2022-08-21 16:44:54,357] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:44:54,383] {logging_mixin.py:115} INFO - [2022-08-21 16:44:54,383] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:44:54,383] {logging_mixin.py:115} INFO - [2022-08-21 16:44:54,383] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:44:54,383] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:44:54,426] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.076 seconds
+[2022-08-21 16:45:50,309] {processor.py:153} INFO - Started process (PID=4379) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:45:50,309] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:45:50,310] {logging_mixin.py:115} INFO - [2022-08-21 16:45:50,310] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:45:50,332] {logging_mixin.py:115} INFO - [2022-08-21 16:45:50,332] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:45:50,332] {logging_mixin.py:115} INFO - [2022-08-21 16:45:50,332] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:45:50,332] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:45:50,373] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.065 seconds
+[2022-08-21 16:46:46,732] {processor.py:153} INFO - Started process (PID=4491) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:46:46,733] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:46:46,733] {logging_mixin.py:115} INFO - [2022-08-21 16:46:46,733] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:46:46,755] {logging_mixin.py:115} INFO - [2022-08-21 16:46:46,755] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:46:46,755] {logging_mixin.py:115} INFO - [2022-08-21 16:46:46,755] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:46:46,756] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:46:46,786] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2022-08-21 16:47:48,573] {processor.py:153} INFO - Started process (PID=4564) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:47:48,579] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:47:48,579] {logging_mixin.py:115} INFO - [2022-08-21 16:47:48,579] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:47:48,610] {logging_mixin.py:115} INFO - [2022-08-21 16:47:48,610] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:47:48,611] {logging_mixin.py:115} INFO - [2022-08-21 16:47:48,611] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:47:48,611] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:47:48,650] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.078 seconds
+[2022-08-21 16:48:57,356] {processor.py:153} INFO - Started process (PID=4614) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:48:57,361] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:48:57,362] {logging_mixin.py:115} INFO - [2022-08-21 16:48:57,362] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:48:57,389] {logging_mixin.py:115} INFO - [2022-08-21 16:48:57,388] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:48:57,389] {logging_mixin.py:115} INFO - [2022-08-21 16:48:57,389] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:48:57,389] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:48:57,419] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.064 seconds
+[2022-08-21 16:49:58,290] {processor.py:153} INFO - Started process (PID=4654) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:49:58,296] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:49:58,297] {logging_mixin.py:115} INFO - [2022-08-21 16:49:58,296] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:49:58,322] {logging_mixin.py:115} INFO - [2022-08-21 16:49:58,321] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:49:58,322] {logging_mixin.py:115} INFO - [2022-08-21 16:49:58,322] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:49:58,322] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:49:58,352] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.062 seconds
+[2022-08-21 16:51:00,688] {processor.py:153} INFO - Started process (PID=4725) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:51:00,689] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:51:00,689] {logging_mixin.py:115} INFO - [2022-08-21 16:51:00,689] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:51:00,710] {logging_mixin.py:115} INFO - [2022-08-21 16:51:00,710] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:51:00,710] {logging_mixin.py:115} INFO - [2022-08-21 16:51:00,710] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:51:00,711] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:51:00,749] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.061 seconds
+[2022-08-21 16:51:58,895] {processor.py:153} INFO - Started process (PID=4829) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:51:58,901] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:51:58,902] {logging_mixin.py:115} INFO - [2022-08-21 16:51:58,902] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:51:58,927] {logging_mixin.py:115} INFO - [2022-08-21 16:51:58,927] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:51:58,927] {logging_mixin.py:115} INFO - [2022-08-21 16:51:58,927] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:51:58,927] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:51:58,957] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.063 seconds
+[2022-08-21 16:52:57,768] {processor.py:153} INFO - Started process (PID=5079) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:52:57,768] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:52:57,768] {logging_mixin.py:115} INFO - [2022-08-21 16:52:57,768] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:52:57,788] {logging_mixin.py:115} INFO - [2022-08-21 16:52:57,788] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:52:57,788] {logging_mixin.py:115} INFO - [2022-08-21 16:52:57,788] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:52:57,788] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:52:57,822] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2022-08-21 16:54:03,246] {processor.py:153} INFO - Started process (PID=5159) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:54:03,246] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:54:03,246] {logging_mixin.py:115} INFO - [2022-08-21 16:54:03,246] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:54:03,268] {logging_mixin.py:115} INFO - [2022-08-21 16:54:03,268] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:54:03,268] {logging_mixin.py:115} INFO - [2022-08-21 16:54:03,268] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:54:03,268] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:54:03,303] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.057 seconds
+[2022-08-21 16:55:04,773] {processor.py:153} INFO - Started process (PID=5217) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:55:04,779] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-08-21 16:55:04,779] {logging_mixin.py:115} INFO - [2022-08-21 16:55:04,779] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:55:04,807] {logging_mixin.py:115} INFO - [2022-08-21 16:55:04,807] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-08-21 16:55:04,807] {logging_mixin.py:115} INFO - [2022-08-21 16:55:04,807] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-08-21 16:55:04,807] {processor.py:653} WARNING - No viable dags retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-08-21 16:55:04,840] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.068 seconds

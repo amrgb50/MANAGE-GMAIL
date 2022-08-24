@@ -1,0 +1,49 @@
+[2022-08-23 22:40:47,247] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipeline.gmailExtractTask manual__2022-08-24T02:40:43.200526+00:00 [queued]>
+[2022-08-23 22:40:47,252] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipeline.gmailExtractTask manual__2022-08-24T02:40:43.200526+00:00 [queued]>
+[2022-08-23 22:40:47,252] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-23 22:40:47,252] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-08-23 22:40:47,252] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-23 22:40:47,262] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): gmailExtractTask> on 2022-08-24 02:40:43.200526+00:00
+[2022-08-23 22:40:47,264] {standard_task_runner.py:52} INFO - Started process 11217 to run task
+[2022-08-23 22:40:47,278] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'gmailPipeline', 'gmailExtractTask', 'manual__2022-08-24T02:40:43.200526+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/gmailDag.py', '--cfg-path', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmp_ehpoex7', '--error-file', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmpf4c02gxd']
+[2022-08-23 22:40:47,282] {standard_task_runner.py:80} INFO - Job 21: Subtask gmailExtractTask
+[2022-08-23 22:40:47,337] {task_command.py:371} INFO - Running <TaskInstance: gmailPipeline.gmailExtractTask manual__2022-08-24T02:40:43.200526+00:00 [running]> on host abhays-mbp.lan
+[2022-08-23 22:40:47,385] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=gmailPipeline
+AIRFLOW_CTX_TASK_ID=gmailExtractTask
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-24T02:40:43.200526+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-24T02:40:43.200526+00:00
+[2022-08-23 22:40:47,414] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2022-08-23 22:41:03,144] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py", line 26, in pullGmailExtract
+    if gextract.extractUnreadEmails():
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/gmailExtract.py", line 48, in extractUnreadEmails
+    json.dump(rawFileDict, f)
+  File "/Users/abhaymone/.pyenv/versions/3.9.9/lib/python3.9/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/Users/abhaymone/.pyenv/versions/3.9.9/lib/python3.9/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Users/abhaymone/.pyenv/versions/3.9.9/lib/python3.9/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/Users/abhaymone/.pyenv/versions/3.9.9/lib/python3.9/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/Users/abhaymone/.pyenv/versions/3.9.9/lib/python3.9/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/Users/abhaymone/.pyenv/versions/3.9.9/lib/python3.9/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/Users/abhaymone/.pyenv/versions/3.9.9/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type date is not JSON serializable
+[2022-08-23 22:41:03,156] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=gmailPipeline, task_id=gmailExtractTask, execution_date=20220824T024043, start_date=20220824T024047, end_date=20220824T024103
+[2022-08-23 22:41:03,164] {standard_task_runner.py:92} ERROR - Failed to execute job 21 for task gmailExtractTask (Object of type date is not JSON serializable; 11217)
+[2022-08-23 22:41:03,187] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-23 22:41:03,203] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

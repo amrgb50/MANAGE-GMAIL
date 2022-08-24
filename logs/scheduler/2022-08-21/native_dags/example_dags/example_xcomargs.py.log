@@ -1,0 +1,264 @@
+[2022-08-21 16:14:07,321] {processor.py:153} INFO - Started process (PID=3341) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:14:07,321] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:14:07,321] {logging_mixin.py:115} INFO - [2022-08-21 16:14:07,321] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:14:07,347] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:14:08,291] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,290] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2022-08-21 16:14:08,298] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,298] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2022-08-21 16:14:08,303] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,303] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2022-08-21 16:14:08,315] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,315] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2022-08-21 16:14:08,321] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,321] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2022-08-21 16:14:08,327] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,327] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2022-08-21 16:14:08,327] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,327] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:14:08,333] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,333] {dag.py:2439} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2022-08-21 16:14:08,333] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,333] {dag.py:2439} INFO - Creating ORM DAG for example_xcom_args
+[2022-08-21 16:14:08,341] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,341] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:14:08,341] {logging_mixin.py:115} INFO - [2022-08-21 16:14:08,341] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:14:08,351] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 1.031 seconds
+[2022-08-21 16:15:33,381] {processor.py:153} INFO - Started process (PID=3416) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:15:33,383] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:15:33,384] {logging_mixin.py:115} INFO - [2022-08-21 16:15:33,384] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:15:33,416] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:15:33,859] {logging_mixin.py:115} INFO - [2022-08-21 16:15:33,859] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:15:33,870] {logging_mixin.py:115} INFO - [2022-08-21 16:15:33,870] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:15:33,871] {logging_mixin.py:115} INFO - [2022-08-21 16:15:33,871] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:15:33,887] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.507 seconds
+[2022-08-21 16:16:30,842] {processor.py:153} INFO - Started process (PID=3450) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:16:30,842] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:16:30,842] {logging_mixin.py:115} INFO - [2022-08-21 16:16:30,842] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:16:30,867] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:16:31,299] {logging_mixin.py:115} INFO - [2022-08-21 16:16:31,299] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:16:31,310] {logging_mixin.py:115} INFO - [2022-08-21 16:16:31,310] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:16:31,310] {logging_mixin.py:115} INFO - [2022-08-21 16:16:31,310] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:16:31,328] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.486 seconds
+[2022-08-21 16:17:26,259] {processor.py:153} INFO - Started process (PID=3485) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:17:26,259] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:17:26,260] {logging_mixin.py:115} INFO - [2022-08-21 16:17:26,260] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:17:26,296] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:17:26,873] {logging_mixin.py:115} INFO - [2022-08-21 16:17:26,873] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:17:26,909] {logging_mixin.py:115} INFO - [2022-08-21 16:17:26,909] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:17:26,910] {logging_mixin.py:115} INFO - [2022-08-21 16:17:26,910] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:17:26,931] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.672 seconds
+[2022-08-21 16:28:12,322] {processor.py:153} INFO - Started process (PID=3543) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:28:12,324] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:28:12,324] {logging_mixin.py:115} INFO - [2022-08-21 16:28:12,324] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:28:12,353] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:28:12,837] {logging_mixin.py:115} INFO - [2022-08-21 16:28:12,837] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:28:12,848] {logging_mixin.py:115} INFO - [2022-08-21 16:28:12,848] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:28:12,848] {logging_mixin.py:115} INFO - [2022-08-21 16:28:12,848] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:28:12,864] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.543 seconds
+[2022-08-21 16:29:05,916] {processor.py:153} INFO - Started process (PID=3578) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:29:05,916] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:29:05,916] {logging_mixin.py:115} INFO - [2022-08-21 16:29:05,916] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:29:05,942] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:29:06,377] {logging_mixin.py:115} INFO - [2022-08-21 16:29:06,377] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:29:06,388] {logging_mixin.py:115} INFO - [2022-08-21 16:29:06,388] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:29:06,388] {logging_mixin.py:115} INFO - [2022-08-21 16:29:06,388] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:29:06,405] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.490 seconds
+[2022-08-21 16:30:00,175] {processor.py:153} INFO - Started process (PID=3611) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:30:00,175] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:30:00,175] {logging_mixin.py:115} INFO - [2022-08-21 16:30:00,175] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:30:00,201] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:30:00,636] {logging_mixin.py:115} INFO - [2022-08-21 16:30:00,635] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:30:00,647] {logging_mixin.py:115} INFO - [2022-08-21 16:30:00,647] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:30:00,647] {logging_mixin.py:115} INFO - [2022-08-21 16:30:00,647] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:30:00,658] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.484 seconds
+[2022-08-21 16:31:00,851] {processor.py:153} INFO - Started process (PID=3646) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:31:00,856] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:31:00,857] {logging_mixin.py:115} INFO - [2022-08-21 16:31:00,857] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:31:00,895] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:31:01,388] {logging_mixin.py:115} INFO - [2022-08-21 16:31:01,387] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:31:01,399] {logging_mixin.py:115} INFO - [2022-08-21 16:31:01,399] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:31:01,399] {logging_mixin.py:115} INFO - [2022-08-21 16:31:01,399] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:31:01,416] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.566 seconds
+[2022-08-21 16:32:06,417] {processor.py:153} INFO - Started process (PID=3689) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:32:06,418] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:32:06,418] {logging_mixin.py:115} INFO - [2022-08-21 16:32:06,418] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:32:06,447] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:32:06,911] {logging_mixin.py:115} INFO - [2022-08-21 16:32:06,911] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:32:06,923] {logging_mixin.py:115} INFO - [2022-08-21 16:32:06,923] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:32:06,923] {logging_mixin.py:115} INFO - [2022-08-21 16:32:06,923] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:32:06,934] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.518 seconds
+[2022-08-21 16:33:04,842] {processor.py:153} INFO - Started process (PID=3727) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:33:04,847] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:33:04,848] {logging_mixin.py:115} INFO - [2022-08-21 16:33:04,848] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:33:04,879] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:33:05,368] {logging_mixin.py:115} INFO - [2022-08-21 16:33:05,368] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:33:05,381] {logging_mixin.py:115} INFO - [2022-08-21 16:33:05,380] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:33:05,381] {logging_mixin.py:115} INFO - [2022-08-21 16:33:05,381] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:33:05,399] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.558 seconds
+[2022-08-21 16:34:05,463] {processor.py:153} INFO - Started process (PID=3765) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:34:05,468] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:34:05,469] {logging_mixin.py:115} INFO - [2022-08-21 16:34:05,469] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:34:05,500] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:34:05,990] {logging_mixin.py:115} INFO - [2022-08-21 16:34:05,990] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:34:06,002] {logging_mixin.py:115} INFO - [2022-08-21 16:34:06,002] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:34:06,003] {logging_mixin.py:115} INFO - [2022-08-21 16:34:06,003] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:34:06,021] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.559 seconds
+[2022-08-21 16:35:06,329] {processor.py:153} INFO - Started process (PID=3799) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:35:06,334] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:35:06,335] {logging_mixin.py:115} INFO - [2022-08-21 16:35:06,335] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:35:06,368] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:35:06,837] {logging_mixin.py:115} INFO - [2022-08-21 16:35:06,837] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:35:06,849] {logging_mixin.py:115} INFO - [2022-08-21 16:35:06,849] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:35:06,849] {logging_mixin.py:115} INFO - [2022-08-21 16:35:06,849] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:35:06,867] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.539 seconds
+[2022-08-21 16:36:04,218] {processor.py:153} INFO - Started process (PID=3838) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:36:04,220] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:36:04,220] {logging_mixin.py:115} INFO - [2022-08-21 16:36:04,220] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:36:04,249] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:36:04,980] {logging_mixin.py:115} INFO - [2022-08-21 16:36:04,980] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:36:04,993] {logging_mixin.py:115} INFO - [2022-08-21 16:36:04,993] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:36:04,993] {logging_mixin.py:115} INFO - [2022-08-21 16:36:04,993] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:36:05,005] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.788 seconds
+[2022-08-21 16:37:05,293] {processor.py:153} INFO - Started process (PID=3874) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:37:05,293] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:37:05,293] {logging_mixin.py:115} INFO - [2022-08-21 16:37:05,293] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:37:05,319] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:37:05,757] {logging_mixin.py:115} INFO - [2022-08-21 16:37:05,756] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:37:05,770] {logging_mixin.py:115} INFO - [2022-08-21 16:37:05,770] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:37:05,770] {logging_mixin.py:115} INFO - [2022-08-21 16:37:05,770] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:37:05,787] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.494 seconds
+[2022-08-21 16:38:01,695] {processor.py:153} INFO - Started process (PID=3908) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:38:01,695] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:38:01,695] {logging_mixin.py:115} INFO - [2022-08-21 16:38:01,695] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:38:01,721] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:38:02,151] {logging_mixin.py:115} INFO - [2022-08-21 16:38:02,151] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:38:02,163] {logging_mixin.py:115} INFO - [2022-08-21 16:38:02,163] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:38:02,163] {logging_mixin.py:115} INFO - [2022-08-21 16:38:02,163] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:38:02,180] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.485 seconds
+[2022-08-21 16:39:01,065] {processor.py:153} INFO - Started process (PID=3944) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:39:01,070] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:39:01,071] {logging_mixin.py:115} INFO - [2022-08-21 16:39:01,071] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:39:01,104] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:39:01,627] {logging_mixin.py:115} INFO - [2022-08-21 16:39:01,627] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:39:01,640] {logging_mixin.py:115} INFO - [2022-08-21 16:39:01,640] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:39:01,640] {logging_mixin.py:115} INFO - [2022-08-21 16:39:01,640] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:39:01,657] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.593 seconds
+[2022-08-21 16:40:01,167] {processor.py:153} INFO - Started process (PID=3979) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:40:01,167] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:40:01,167] {logging_mixin.py:115} INFO - [2022-08-21 16:40:01,167] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:40:01,195] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:40:01,664] {logging_mixin.py:115} INFO - [2022-08-21 16:40:01,663] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:40:01,676] {logging_mixin.py:115} INFO - [2022-08-21 16:40:01,676] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:40:01,677] {logging_mixin.py:115} INFO - [2022-08-21 16:40:01,676] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:40:01,694] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.527 seconds
+[2022-08-21 16:41:00,433] {processor.py:153} INFO - Started process (PID=4013) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:41:00,438] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:41:00,439] {logging_mixin.py:115} INFO - [2022-08-21 16:41:00,439] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:41:00,470] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:41:00,940] {logging_mixin.py:115} INFO - [2022-08-21 16:41:00,940] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:41:00,952] {logging_mixin.py:115} INFO - [2022-08-21 16:41:00,952] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:41:00,952] {logging_mixin.py:115} INFO - [2022-08-21 16:41:00,952] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:41:00,969] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.537 seconds
+[2022-08-21 16:41:59,498] {processor.py:153} INFO - Started process (PID=4051) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:41:59,498] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:41:59,498] {logging_mixin.py:115} INFO - [2022-08-21 16:41:59,498] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:41:59,527] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:42:00,012] {logging_mixin.py:115} INFO - [2022-08-21 16:42:00,012] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:42:00,025] {logging_mixin.py:115} INFO - [2022-08-21 16:42:00,025] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:42:00,026] {logging_mixin.py:115} INFO - [2022-08-21 16:42:00,026] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:42:00,043] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.545 seconds
+[2022-08-21 16:43:02,332] {processor.py:153} INFO - Started process (PID=4089) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:43:02,337] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:43:02,338] {logging_mixin.py:115} INFO - [2022-08-21 16:43:02,338] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:43:02,365] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:43:02,837] {logging_mixin.py:115} INFO - [2022-08-21 16:43:02,837] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:43:02,849] {logging_mixin.py:115} INFO - [2022-08-21 16:43:02,849] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:43:02,849] {logging_mixin.py:115} INFO - [2022-08-21 16:43:02,849] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:43:02,866] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.534 seconds
+[2022-08-21 16:44:06,632] {processor.py:153} INFO - Started process (PID=4192) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:44:06,634] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:44:06,635] {logging_mixin.py:115} INFO - [2022-08-21 16:44:06,635] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:44:06,666] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:44:07,173] {logging_mixin.py:115} INFO - [2022-08-21 16:44:07,173] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:44:07,189] {logging_mixin.py:115} INFO - [2022-08-21 16:44:07,189] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:44:07,189] {logging_mixin.py:115} INFO - [2022-08-21 16:44:07,189] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:44:07,207] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.576 seconds
+[2022-08-21 16:45:05,929] {processor.py:153} INFO - Started process (PID=4290) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:45:05,929] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:45:05,929] {logging_mixin.py:115} INFO - [2022-08-21 16:45:05,929] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:45:05,965] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:45:06,422] {logging_mixin.py:115} INFO - [2022-08-21 16:45:06,422] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:45:06,433] {logging_mixin.py:115} INFO - [2022-08-21 16:45:06,433] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:45:06,433] {logging_mixin.py:115} INFO - [2022-08-21 16:45:06,433] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:45:06,450] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.521 seconds
+[2022-08-21 16:46:00,432] {processor.py:153} INFO - Started process (PID=4398) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:46:00,432] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:46:00,433] {logging_mixin.py:115} INFO - [2022-08-21 16:46:00,433] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:46:00,459] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:46:00,918] {logging_mixin.py:115} INFO - [2022-08-21 16:46:00,918] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:46:00,929] {logging_mixin.py:115} INFO - [2022-08-21 16:46:00,929] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:46:00,929] {logging_mixin.py:115} INFO - [2022-08-21 16:46:00,929] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:46:00,947] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.515 seconds
+[2022-08-21 16:46:58,435] {processor.py:153} INFO - Started process (PID=4518) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:46:58,441] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:46:58,441] {logging_mixin.py:115} INFO - [2022-08-21 16:46:58,441] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:46:58,472] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:46:59,396] {logging_mixin.py:115} INFO - [2022-08-21 16:46:59,396] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:46:59,408] {logging_mixin.py:115} INFO - [2022-08-21 16:46:59,407] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:46:59,408] {logging_mixin.py:115} INFO - [2022-08-21 16:46:59,408] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:46:59,417] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.983 seconds
+[2022-08-21 16:48:06,437] {processor.py:153} INFO - Started process (PID=4575) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:48:06,443] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:48:06,443] {logging_mixin.py:115} INFO - [2022-08-21 16:48:06,443] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:48:06,494] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:48:07,407] {logging_mixin.py:115} INFO - [2022-08-21 16:48:07,407] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:48:07,424] {logging_mixin.py:115} INFO - [2022-08-21 16:48:07,424] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:48:07,424] {logging_mixin.py:115} INFO - [2022-08-21 16:48:07,424] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:48:07,438] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 1.002 seconds
+[2022-08-21 16:49:12,016] {processor.py:153} INFO - Started process (PID=4625) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:49:12,022] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:49:12,022] {logging_mixin.py:115} INFO - [2022-08-21 16:49:12,022] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:49:12,058] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:49:13,078] {logging_mixin.py:115} INFO - [2022-08-21 16:49:13,078] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:49:13,092] {logging_mixin.py:115} INFO - [2022-08-21 16:49:13,092] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:49:13,096] {logging_mixin.py:115} INFO - [2022-08-21 16:49:13,095] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:49:13,107] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 1.091 seconds
+[2022-08-21 16:50:12,220] {processor.py:153} INFO - Started process (PID=4664) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:50:12,222] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:50:12,223] {logging_mixin.py:115} INFO - [2022-08-21 16:50:12,223] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:50:12,255] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:50:13,194] {logging_mixin.py:115} INFO - [2022-08-21 16:50:13,194] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:50:13,206] {logging_mixin.py:115} INFO - [2022-08-21 16:50:13,206] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:50:13,206] {logging_mixin.py:115} INFO - [2022-08-21 16:50:13,206] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:50:13,218] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.999 seconds
+[2022-08-21 16:51:11,573] {processor.py:153} INFO - Started process (PID=4743) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:51:11,578] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:51:11,579] {logging_mixin.py:115} INFO - [2022-08-21 16:51:11,579] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:51:11,623] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:51:12,645] {logging_mixin.py:115} INFO - [2022-08-21 16:51:12,645] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:51:12,660] {logging_mixin.py:115} INFO - [2022-08-21 16:51:12,660] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:51:12,660] {logging_mixin.py:115} INFO - [2022-08-21 16:51:12,660] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:51:12,677] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 1.104 seconds
+[2022-08-21 16:52:09,524] {processor.py:153} INFO - Started process (PID=4955) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:52:09,524] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:52:09,525] {logging_mixin.py:115} INFO - [2022-08-21 16:52:09,524] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:52:09,550] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:52:09,990] {logging_mixin.py:115} INFO - [2022-08-21 16:52:09,990] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:52:10,003] {logging_mixin.py:115} INFO - [2022-08-21 16:52:10,003] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:52:10,003] {logging_mixin.py:115} INFO - [2022-08-21 16:52:10,003] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:52:10,018] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.495 seconds
+[2022-08-21 16:53:05,577] {processor.py:153} INFO - Started process (PID=5090) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:53:05,577] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:53:05,577] {logging_mixin.py:115} INFO - [2022-08-21 16:53:05,577] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:53:05,606] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:53:06,193] {logging_mixin.py:115} INFO - [2022-08-21 16:53:06,192] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:53:06,207] {logging_mixin.py:115} INFO - [2022-08-21 16:53:06,207] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:53:06,208] {logging_mixin.py:115} INFO - [2022-08-21 16:53:06,208] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:53:06,227] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.651 seconds
+[2022-08-21 16:53:50,958] {processor.py:153} INFO - Started process (PID=5148) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:53:50,958] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:53:50,959] {logging_mixin.py:115} INFO - [2022-08-21 16:53:50,959] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:53:50,984] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:53:51,470] {logging_mixin.py:115} INFO - [2022-08-21 16:53:51,470] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:53:51,482] {logging_mixin.py:115} INFO - [2022-08-21 16:53:51,481] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:53:51,482] {logging_mixin.py:115} INFO - [2022-08-21 16:53:51,482] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:53:51,499] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.541 seconds
+[2022-08-21 16:54:51,075] {processor.py:153} INFO - Started process (PID=5204) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:54:51,081] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-08-21 16:54:51,081] {logging_mixin.py:115} INFO - [2022-08-21 16:54:51,081] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:54:51,131] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-08-21 16:54:51,856] {logging_mixin.py:115} INFO - [2022-08-21 16:54:51,856] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:54:51,874] {logging_mixin.py:115} INFO - [2022-08-21 16:54:51,874] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-08-21 16:54:51,874] {logging_mixin.py:115} INFO - [2022-08-21 16:54:51,874] {dag.py:2968} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-08-21 16:54:51,886] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.813 seconds

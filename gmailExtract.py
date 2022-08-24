@@ -1,5 +1,6 @@
 from __future__ import print_function
 from importlib import import_module
+from time import strftime
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -7,13 +8,13 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import dateutil.parser as parser
 from gmailAuthentication import  authentication
-
+from datetime import datetime
+import json
 
 class gmailExtract() :
 
-    def __init__(self):
-        auth = authentication()
-        self.gmailAuthObj = auth.getgmailAuthentication()
+    def __init__(self,authcred):
+        self.gmailAuthObj = authcred
         self.msgInfoList = []
 
     def extractUnreadEmails(self):
@@ -39,10 +40,17 @@ class gmailExtract() :
                     self.msgInfoList.append([msg_id,dt,frmEmail])  
             else : 
                 print("No emails to read!!\nAttention empty msglist is being passed")
-            return self.msgInfoList
+            
+            rawFileDict = {
+                'data' : self.msgInfoList
+            }
+            with open('data/rawLayer/gmailExtract.txt','w') as f:
+                json.dump(rawFileDict, f, default=str)
+                return 1
         except HttpError as error:
             # TODO(developer) - Handle errors from gmail API.
             print(f'An error occurred: {error}')
+            return 0
 
     def unreademails(self):
         msg_ids = []
@@ -54,8 +62,7 @@ class gmailExtract() :
             }
         try :
             service = build('gmail', 'v1', credentials=self.gmailAuthObj)
-            response =  service.users().messages().batchModify(userId = 'me', body = unreadAction).execute()
-            return response
+            service.users().messages().batchModify(userId = 'me', body = unreadAction).execute()
         except HttpError as error:
             print(f'An error occurred: {error}')
 

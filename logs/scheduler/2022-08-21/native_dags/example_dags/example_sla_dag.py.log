@@ -1,0 +1,221 @@
+[2022-08-21 16:14:31,233] {processor.py:153} INFO - Started process (PID=3363) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:14:31,233] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:14:31,233] {logging_mixin.py:115} INFO - [2022-08-21 16:14:31,233] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:14:31,267] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:14:32,102] {logging_mixin.py:115} INFO - [2022-08-21 16:14:32,102] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2022-08-21 16:14:32,110] {logging_mixin.py:115} INFO - [2022-08-21 16:14:32,110] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2022-08-21 16:14:32,116] {logging_mixin.py:115} INFO - [2022-08-21 16:14:32,116] {manager.py:508} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2022-08-21 16:14:32,117] {logging_mixin.py:115} INFO - [2022-08-21 16:14:32,116] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:14:32,123] {logging_mixin.py:115} INFO - [2022-08-21 16:14:32,123] {dag.py:2439} INFO - Creating ORM DAG for example_sla_dag
+[2022-08-21 16:14:32,134] {logging_mixin.py:115} INFO - [2022-08-21 16:14:32,134] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:12:00+00:00, run_after=2022-08-21T20:14:00+00:00
+[2022-08-21 16:14:32,145] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.913 seconds
+[2022-08-21 16:15:47,105] {processor.py:153} INFO - Started process (PID=3424) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:15:47,111] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:15:47,112] {logging_mixin.py:115} INFO - [2022-08-21 16:15:47,112] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:15:47,143] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:15:47,190] {logging_mixin.py:115} INFO - [2022-08-21 16:15:47,190] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:15:47,203] {logging_mixin.py:115} INFO - [2022-08-21 16:15:47,203] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:12:00+00:00, run_after=2022-08-21T20:14:00+00:00
+[2022-08-21 16:15:47,215] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2022-08-21 16:16:45,524] {processor.py:153} INFO - Started process (PID=3459) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:16:45,524] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:16:45,524] {logging_mixin.py:115} INFO - [2022-08-21 16:16:45,524] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:16:45,549] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:16:45,595] {logging_mixin.py:115} INFO - [2022-08-21 16:16:45,595] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:16:45,608] {logging_mixin.py:115} INFO - [2022-08-21 16:16:45,608] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:14:00+00:00, run_after=2022-08-21T20:16:00+00:00
+[2022-08-21 16:16:45,624] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.101 seconds
+[2022-08-21 16:17:41,821] {processor.py:153} INFO - Started process (PID=3493) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:17:41,827] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:17:41,828] {logging_mixin.py:115} INFO - [2022-08-21 16:17:41,828] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:17:41,859] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:17:41,914] {logging_mixin.py:115} INFO - [2022-08-21 16:17:41,914] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:17:41,932] {logging_mixin.py:115} INFO - [2022-08-21 16:17:41,932] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:14:00+00:00, run_after=2022-08-21T20:16:00+00:00
+[2022-08-21 16:17:41,940] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2022-08-21 16:28:26,249] {processor.py:153} INFO - Started process (PID=3551) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:28:26,254] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:28:26,255] {logging_mixin.py:115} INFO - [2022-08-21 16:28:26,255] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:28:26,286] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:28:26,332] {logging_mixin.py:115} INFO - [2022-08-21 16:28:26,332] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:28:26,345] {logging_mixin.py:115} INFO - [2022-08-21 16:28:26,345] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:26:00+00:00, run_after=2022-08-21T20:28:00+00:00
+[2022-08-21 16:28:26,356] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2022-08-21 16:29:24,050] {processor.py:153} INFO - Started process (PID=3588) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:29:24,050] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:29:24,050] {logging_mixin.py:115} INFO - [2022-08-21 16:29:24,050] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:29:24,075] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:29:24,121] {logging_mixin.py:115} INFO - [2022-08-21 16:29:24,121] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:29:24,134] {logging_mixin.py:115} INFO - [2022-08-21 16:29:24,134] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:26:00+00:00, run_after=2022-08-21T20:28:00+00:00
+[2022-08-21 16:29:24,150] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.101 seconds
+[2022-08-21 16:30:18,235] {processor.py:153} INFO - Started process (PID=3624) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:30:18,236] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:30:18,236] {logging_mixin.py:115} INFO - [2022-08-21 16:30:18,236] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:30:18,261] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:30:18,307] {logging_mixin.py:115} INFO - [2022-08-21 16:30:18,307] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:30:18,320] {logging_mixin.py:115} INFO - [2022-08-21 16:30:18,320] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:28:00+00:00, run_after=2022-08-21T20:30:00+00:00
+[2022-08-21 16:30:18,336] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.102 seconds
+[2022-08-21 16:31:28,589] {processor.py:153} INFO - Started process (PID=3662) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:31:28,595] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:31:28,596] {logging_mixin.py:115} INFO - [2022-08-21 16:31:28,595] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:31:28,627] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:31:28,676] {logging_mixin.py:115} INFO - [2022-08-21 16:31:28,675] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:31:28,691] {logging_mixin.py:115} INFO - [2022-08-21 16:31:28,691] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:28:00+00:00, run_after=2022-08-21T20:30:00+00:00
+[2022-08-21 16:31:28,703] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.114 seconds
+[2022-08-21 16:32:29,550] {processor.py:153} INFO - Started process (PID=3705) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:32:29,550] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:32:29,550] {logging_mixin.py:115} INFO - [2022-08-21 16:32:29,550] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:32:29,586] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:32:29,653] {logging_mixin.py:115} INFO - [2022-08-21 16:32:29,653] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:32:29,676] {logging_mixin.py:115} INFO - [2022-08-21 16:32:29,676] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:30:00+00:00, run_after=2022-08-21T20:32:00+00:00
+[2022-08-21 16:32:29,687] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.139 seconds
+[2022-08-21 16:33:27,408] {processor.py:153} INFO - Started process (PID=3740) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:33:27,410] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:33:27,411] {logging_mixin.py:115} INFO - [2022-08-21 16:33:27,411] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:33:27,442] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:33:27,493] {logging_mixin.py:115} INFO - [2022-08-21 16:33:27,493] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:33:27,507] {logging_mixin.py:115} INFO - [2022-08-21 16:33:27,507] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:30:00+00:00, run_after=2022-08-21T20:32:00+00:00
+[2022-08-21 16:33:27,518] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.111 seconds
+[2022-08-21 16:34:27,603] {processor.py:153} INFO - Started process (PID=3777) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:34:27,609] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:34:27,609] {logging_mixin.py:115} INFO - [2022-08-21 16:34:27,609] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:34:27,640] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:34:27,695] {logging_mixin.py:115} INFO - [2022-08-21 16:34:27,695] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:34:27,709] {logging_mixin.py:115} INFO - [2022-08-21 16:34:27,709] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:32:00+00:00, run_after=2022-08-21T20:34:00+00:00
+[2022-08-21 16:34:27,726] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.123 seconds
+[2022-08-21 16:35:26,243] {processor.py:153} INFO - Started process (PID=3812) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:35:26,245] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:35:26,245] {logging_mixin.py:115} INFO - [2022-08-21 16:35:26,245] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:35:26,281] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:35:26,342] {logging_mixin.py:115} INFO - [2022-08-21 16:35:26,341] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:35:26,357] {logging_mixin.py:115} INFO - [2022-08-21 16:35:26,357] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:32:00+00:00, run_after=2022-08-21T20:34:00+00:00
+[2022-08-21 16:35:26,371] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.129 seconds
+[2022-08-21 16:36:30,991] {processor.py:153} INFO - Started process (PID=3854) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:36:30,997] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:36:30,997] {logging_mixin.py:115} INFO - [2022-08-21 16:36:30,997] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:36:31,026] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:36:31,075] {logging_mixin.py:115} INFO - [2022-08-21 16:36:31,075] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:36:31,088] {logging_mixin.py:115} INFO - [2022-08-21 16:36:31,088] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:34:00+00:00, run_after=2022-08-21T20:36:00+00:00
+[2022-08-21 16:36:31,097] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.106 seconds
+[2022-08-21 16:37:29,534] {processor.py:153} INFO - Started process (PID=3889) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:37:29,534] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:37:29,534] {logging_mixin.py:115} INFO - [2022-08-21 16:37:29,534] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:37:29,559] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:37:29,606] {logging_mixin.py:115} INFO - [2022-08-21 16:37:29,606] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:37:29,619] {logging_mixin.py:115} INFO - [2022-08-21 16:37:29,619] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:34:00+00:00, run_after=2022-08-21T20:36:00+00:00
+[2022-08-21 16:37:29,635] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.102 seconds
+[2022-08-21 16:38:27,056] {processor.py:153} INFO - Started process (PID=3923) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:38:27,057] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:38:27,057] {logging_mixin.py:115} INFO - [2022-08-21 16:38:27,057] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:38:27,082] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:38:27,129] {logging_mixin.py:115} INFO - [2022-08-21 16:38:27,129] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:38:27,142] {logging_mixin.py:115} INFO - [2022-08-21 16:38:27,142] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:36:00+00:00, run_after=2022-08-21T20:38:00+00:00
+[2022-08-21 16:38:27,158] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.103 seconds
+[2022-08-21 16:39:30,034] {processor.py:153} INFO - Started process (PID=3962) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:39:30,034] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:39:30,034] {logging_mixin.py:115} INFO - [2022-08-21 16:39:30,034] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:39:30,059] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:39:30,105] {logging_mixin.py:115} INFO - [2022-08-21 16:39:30,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:39:30,118] {logging_mixin.py:115} INFO - [2022-08-21 16:39:30,118] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:36:00+00:00, run_after=2022-08-21T20:38:00+00:00
+[2022-08-21 16:39:30,135] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.101 seconds
+[2022-08-21 16:40:29,715] {processor.py:153} INFO - Started process (PID=3996) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:40:29,716] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:40:29,716] {logging_mixin.py:115} INFO - [2022-08-21 16:40:29,716] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:40:29,743] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:40:29,793] {logging_mixin.py:115} INFO - [2022-08-21 16:40:29,793] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:40:29,806] {logging_mixin.py:115} INFO - [2022-08-21 16:40:29,806] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:38:00+00:00, run_after=2022-08-21T20:40:00+00:00
+[2022-08-21 16:40:29,822] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.107 seconds
+[2022-08-21 16:41:34,873] {processor.py:153} INFO - Started process (PID=4035) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:41:34,873] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:41:34,873] {logging_mixin.py:115} INFO - [2022-08-21 16:41:34,873] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:41:34,901] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:41:34,953] {logging_mixin.py:115} INFO - [2022-08-21 16:41:34,953] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:41:34,967] {logging_mixin.py:115} INFO - [2022-08-21 16:41:34,967] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:38:00+00:00, run_after=2022-08-21T20:40:00+00:00
+[2022-08-21 16:41:34,982] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2022-08-21 16:42:35,680] {processor.py:153} INFO - Started process (PID=4072) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:42:35,680] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:42:35,680] {logging_mixin.py:115} INFO - [2022-08-21 16:42:35,680] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:42:35,708] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:42:35,759] {logging_mixin.py:115} INFO - [2022-08-21 16:42:35,759] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:42:35,773] {logging_mixin.py:115} INFO - [2022-08-21 16:42:35,773] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:40:00+00:00, run_after=2022-08-21T20:42:00+00:00
+[2022-08-21 16:42:35,791] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.111 seconds
+[2022-08-21 16:43:39,219] {processor.py:153} INFO - Started process (PID=4142) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:43:39,225] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:43:39,226] {logging_mixin.py:115} INFO - [2022-08-21 16:43:39,226] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:43:39,261] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:43:39,323] {logging_mixin.py:115} INFO - [2022-08-21 16:43:39,323] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:43:39,340] {logging_mixin.py:115} INFO - [2022-08-21 16:43:39,340] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:40:00+00:00, run_after=2022-08-21T20:42:00+00:00
+[2022-08-21 16:43:39,351] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.132 seconds
+[2022-08-21 16:44:43,479] {processor.py:153} INFO - Started process (PID=4251) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:44:43,485] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:44:43,486] {logging_mixin.py:115} INFO - [2022-08-21 16:44:43,486] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:44:43,518] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:44:43,564] {logging_mixin.py:115} INFO - [2022-08-21 16:44:43,564] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:44:43,577] {logging_mixin.py:115} INFO - [2022-08-21 16:44:43,577] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:42:00+00:00, run_after=2022-08-21T20:44:00+00:00
+[2022-08-21 16:44:43,587] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2022-08-21 16:45:41,610] {processor.py:153} INFO - Started process (PID=4357) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:45:41,610] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:45:41,611] {logging_mixin.py:115} INFO - [2022-08-21 16:45:41,611] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:45:41,639] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:45:41,700] {logging_mixin.py:115} INFO - [2022-08-21 16:45:41,700] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:45:41,715] {logging_mixin.py:115} INFO - [2022-08-21 16:45:41,715] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:42:00+00:00, run_after=2022-08-21T20:44:00+00:00
+[2022-08-21 16:45:41,730] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2022-08-21 16:46:35,834] {processor.py:153} INFO - Started process (PID=4469) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:46:35,840] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:46:35,841] {logging_mixin.py:115} INFO - [2022-08-21 16:46:35,840] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:46:35,872] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:46:35,918] {logging_mixin.py:115} INFO - [2022-08-21 16:46:35,918] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:46:35,932] {logging_mixin.py:115} INFO - [2022-08-21 16:46:35,932] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:44:00+00:00, run_after=2022-08-21T20:46:00+00:00
+[2022-08-21 16:46:35,942] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2022-08-21 16:47:36,782] {processor.py:153} INFO - Started process (PID=4558) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:47:36,788] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:47:36,788] {logging_mixin.py:115} INFO - [2022-08-21 16:47:36,788] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:47:36,822] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:47:36,872] {logging_mixin.py:115} INFO - [2022-08-21 16:47:36,872] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:47:36,886] {logging_mixin.py:115} INFO - [2022-08-21 16:47:36,886] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:44:00+00:00, run_after=2022-08-21T20:46:00+00:00
+[2022-08-21 16:47:36,897] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.116 seconds
+[2022-08-21 16:48:47,662] {processor.py:153} INFO - Started process (PID=4608) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:48:47,663] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:48:47,664] {logging_mixin.py:115} INFO - [2022-08-21 16:48:47,663] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:48:47,694] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:48:47,749] {logging_mixin.py:115} INFO - [2022-08-21 16:48:47,749] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:48:47,767] {logging_mixin.py:115} INFO - [2022-08-21 16:48:47,767] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:46:00+00:00, run_after=2022-08-21T20:48:00+00:00
+[2022-08-21 16:48:47,778] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.116 seconds
+[2022-08-21 16:49:46,164] {processor.py:153} INFO - Started process (PID=4647) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:49:46,165] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:49:46,165] {logging_mixin.py:115} INFO - [2022-08-21 16:49:46,165] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:49:46,207] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:49:46,301] {logging_mixin.py:115} INFO - [2022-08-21 16:49:46,301] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:49:46,329] {logging_mixin.py:115} INFO - [2022-08-21 16:49:46,329] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:46:00+00:00, run_after=2022-08-21T20:48:00+00:00
+[2022-08-21 16:49:46,350] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.186 seconds
+[2022-08-21 16:50:51,752] {processor.py:153} INFO - Started process (PID=4707) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:50:51,758] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:50:51,759] {logging_mixin.py:115} INFO - [2022-08-21 16:50:51,759] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:50:51,791] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:50:51,838] {logging_mixin.py:115} INFO - [2022-08-21 16:50:51,838] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:50:51,851] {logging_mixin.py:115} INFO - [2022-08-21 16:50:51,851] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:48:00+00:00, run_after=2022-08-21T20:50:00+00:00
+[2022-08-21 16:50:51,861] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2022-08-21 16:51:49,856] {processor.py:153} INFO - Started process (PID=4811) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:51:49,862] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:51:49,862] {logging_mixin.py:115} INFO - [2022-08-21 16:51:49,862] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:51:49,890] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:51:49,938] {logging_mixin.py:115} INFO - [2022-08-21 16:51:49,938] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:51:49,951] {logging_mixin.py:115} INFO - [2022-08-21 16:51:49,951] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:48:00+00:00, run_after=2022-08-21T20:50:00+00:00
+[2022-08-21 16:51:49,963] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2022-08-21 16:52:47,235] {processor.py:153} INFO - Started process (PID=5047) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:52:47,235] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:52:47,236] {logging_mixin.py:115} INFO - [2022-08-21 16:52:47,236] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:52:47,275] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:52:47,378] {logging_mixin.py:115} INFO - [2022-08-21 16:52:47,377] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:52:47,398] {logging_mixin.py:115} INFO - [2022-08-21 16:52:47,398] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:50:00+00:00, run_after=2022-08-21T20:52:00+00:00
+[2022-08-21 16:52:47,409] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.175 seconds
+[2022-08-21 16:53:53,571] {processor.py:153} INFO - Started process (PID=5150) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:53:53,571] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:53:53,572] {logging_mixin.py:115} INFO - [2022-08-21 16:53:53,572] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:53:53,607] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:53:53,711] {logging_mixin.py:115} INFO - [2022-08-21 16:53:53,711] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:53:53,730] {logging_mixin.py:115} INFO - [2022-08-21 16:53:53,730] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:50:00+00:00, run_after=2022-08-21T20:52:00+00:00
+[2022-08-21 16:53:53,738] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.168 seconds
+[2022-08-21 16:54:53,791] {processor.py:153} INFO - Started process (PID=5206) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:54:53,793] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-08-21 16:54:53,793] {logging_mixin.py:115} INFO - [2022-08-21 16:54:53,793] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:54:53,826] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-08-21 16:54:53,882] {logging_mixin.py:115} INFO - [2022-08-21 16:54:53,882] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:54:53,898] {logging_mixin.py:115} INFO - [2022-08-21 16:54:53,898] {dag.py:2968} INFO - Setting next_dagrun for example_sla_dag to 2022-08-21T20:52:00+00:00, run_after=2022-08-21T20:54:00+00:00
+[2022-08-21 16:54:53,912] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.122 seconds

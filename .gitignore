@@ -2,4 +2,10 @@ bin/
 data/
 include/
 lib/
+venv/
+webserver_config.py
 *json
+dataviz*
+share/
+airflow.db
+airflow.cfg

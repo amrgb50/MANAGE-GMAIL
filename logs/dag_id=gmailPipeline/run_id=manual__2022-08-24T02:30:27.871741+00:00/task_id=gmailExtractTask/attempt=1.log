@@ -1,0 +1,35 @@
+[2022-08-23 22:30:29,827] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipeline.gmailExtractTask manual__2022-08-24T02:30:27.871741+00:00 [queued]>
+[2022-08-23 22:30:29,832] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipeline.gmailExtractTask manual__2022-08-24T02:30:27.871741+00:00 [queued]>
+[2022-08-23 22:30:29,833] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-23 22:30:29,833] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-08-23 22:30:29,833] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-23 22:30:29,842] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): gmailExtractTask> on 2022-08-24 02:30:27.871741+00:00
+[2022-08-23 22:30:29,844] {standard_task_runner.py:52} INFO - Started process 10982 to run task
+[2022-08-23 22:30:29,850] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'gmailPipeline', 'gmailExtractTask', 'manual__2022-08-24T02:30:27.871741+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/gmailDag.py', '--cfg-path', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmpsldgggmn', '--error-file', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmprky4foqr']
+[2022-08-23 22:30:29,852] {standard_task_runner.py:80} INFO - Job 19: Subtask gmailExtractTask
+[2022-08-23 22:30:29,896] {task_command.py:371} INFO - Running <TaskInstance: gmailPipeline.gmailExtractTask manual__2022-08-24T02:30:27.871741+00:00 [running]> on host abhays-mbp.lan
+[2022-08-23 22:30:29,943] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=gmailPipeline
+AIRFLOW_CTX_TASK_ID=gmailExtractTask
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-24T02:30:27.871741+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-24T02:30:27.871741+00:00
+[2022-08-23 22:30:29,956] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2022-08-23 22:30:49,361] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py", line 26, in pullGmailExtract
+    if gextract.extractUnreadEmails():
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/gmailExtract.py", line 47, in extractUnreadEmails
+    with open('data/gmailExtract_{}_.txt'.format(strftime('%Y-%m%d %H-%M', datetime.now())),'w') as f:
+TypeError: Tuple or struct_time argument required
+[2022-08-23 22:30:49,368] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=gmailPipeline, task_id=gmailExtractTask, execution_date=20220824T023027, start_date=20220824T023029, end_date=20220824T023049
+[2022-08-23 22:30:49,378] {standard_task_runner.py:92} ERROR - Failed to execute job 19 for task gmailExtractTask (Tuple or struct_time argument required; 10982)
+[2022-08-23 22:30:49,396] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-23 22:30:49,412] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

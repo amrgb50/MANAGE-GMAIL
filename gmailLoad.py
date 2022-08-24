@@ -3,12 +3,10 @@ from gmailTransformations import dataTransformation
 import pandas as pd
 
 class targetLoad():
-    def __init__(self) :
-        dt = dataTransformation()
-        self.gmailMsgDF = dt.getGmailExtractDF()
+    def __init__(self,sqlengine) :
+        self.gmailMsgDF = pd.read_csv('data/stageLayer/extract.csv',usecols=['MSG_ID','RECEIVE_DT','FRM_EMAIL'])
+        self.sqlconn = sqlengine
 
     def gmailMsgLoad(self):
-        auth = authentication()
-        sqlengine = auth.getdbconn()
-        self.gmailMsgDF.to_sql('gmailMsgs',sqlengine,if_exists='append', index=False )
+        self.gmailMsgDF.to_sql('gmailMsgs',self.sqlconn,if_exists='append', index=False )
         return 1

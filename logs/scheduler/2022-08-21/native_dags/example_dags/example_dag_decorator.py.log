@@ -1,0 +1,214 @@
+[2022-08-21 16:15:00,242] {processor.py:153} INFO - Started process (PID=3387) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:15:00,243] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:15:00,243] {logging_mixin.py:115} INFO - [2022-08-21 16:15:00,243] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:15:00,444] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:15:01,068] {logging_mixin.py:115} INFO - [2022-08-21 16:15:01,068] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2022-08-21 16:15:01,075] {logging_mixin.py:115} INFO - [2022-08-21 16:15:01,075] {manager.py:508} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2022-08-21 16:15:01,082] {logging_mixin.py:115} INFO - [2022-08-21 16:15:01,082] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2022-08-21 16:15:01,082] {logging_mixin.py:115} INFO - [2022-08-21 16:15:01,082] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:15:01,089] {logging_mixin.py:115} INFO - [2022-08-21 16:15:01,089] {dag.py:2439} INFO - Creating ORM DAG for example_dag_decorator
+[2022-08-21 16:15:01,095] {logging_mixin.py:115} INFO - [2022-08-21 16:15:01,095] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:15:01,105] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.863 seconds
+[2022-08-21 16:16:11,300] {processor.py:153} INFO - Started process (PID=3439) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:16:11,307] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:16:11,308] {logging_mixin.py:115} INFO - [2022-08-21 16:16:11,308] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:16:11,477] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:16:11,786] {logging_mixin.py:115} INFO - [2022-08-21 16:16:11,786] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:16:11,797] {logging_mixin.py:115} INFO - [2022-08-21 16:16:11,797] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:16:11,813] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.513 seconds
+[2022-08-21 16:17:09,847] {processor.py:153} INFO - Started process (PID=3475) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:17:09,847] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:17:09,847] {logging_mixin.py:115} INFO - [2022-08-21 16:17:09,847] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:17:09,998] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:17:10,310] {logging_mixin.py:115} INFO - [2022-08-21 16:17:10,310] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:17:10,321] {logging_mixin.py:115} INFO - [2022-08-21 16:17:10,321] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:17:10,331] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.485 seconds
+[2022-08-21 16:28:41,909] {processor.py:153} INFO - Started process (PID=3561) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:28:41,910] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:28:41,910] {logging_mixin.py:115} INFO - [2022-08-21 16:28:41,910] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:28:42,065] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:28:42,391] {logging_mixin.py:115} INFO - [2022-08-21 16:28:42,391] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:28:42,402] {logging_mixin.py:115} INFO - [2022-08-21 16:28:42,402] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:28:42,415] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.506 seconds
+[2022-08-21 16:29:39,649] {processor.py:153} INFO - Started process (PID=3599) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:29:39,649] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:29:39,649] {logging_mixin.py:115} INFO - [2022-08-21 16:29:39,649] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:29:39,796] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:29:40,106] {logging_mixin.py:115} INFO - [2022-08-21 16:29:40,106] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:29:40,117] {logging_mixin.py:115} INFO - [2022-08-21 16:29:40,117] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:29:40,135] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.486 seconds
+[2022-08-21 16:30:37,513] {processor.py:153} INFO - Started process (PID=3635) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:30:37,513] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:30:37,513] {logging_mixin.py:115} INFO - [2022-08-21 16:30:37,513] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:30:37,659] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:30:37,970] {logging_mixin.py:115} INFO - [2022-08-21 16:30:37,970] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:30:37,981] {logging_mixin.py:115} INFO - [2022-08-21 16:30:37,981] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:30:37,998] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.486 seconds
+[2022-08-21 16:31:47,813] {processor.py:153} INFO - Started process (PID=3673) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:31:47,819] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:31:47,820] {logging_mixin.py:115} INFO - [2022-08-21 16:31:47,820] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:31:47,985] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:31:48,296] {logging_mixin.py:115} INFO - [2022-08-21 16:31:48,296] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:31:48,307] {logging_mixin.py:115} INFO - [2022-08-21 16:31:48,307] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:31:48,325] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.512 seconds
+[2022-08-21 16:32:47,029] {processor.py:153} INFO - Started process (PID=3716) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:32:47,034] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:32:47,035] {logging_mixin.py:115} INFO - [2022-08-21 16:32:47,035] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:32:47,221] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:32:47,640] {logging_mixin.py:115} INFO - [2022-08-21 16:32:47,640] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:32:47,654] {logging_mixin.py:115} INFO - [2022-08-21 16:32:47,654] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:32:47,665] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.637 seconds
+[2022-08-21 16:33:46,220] {processor.py:153} INFO - Started process (PID=3751) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:33:46,226] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:33:46,227] {logging_mixin.py:115} INFO - [2022-08-21 16:33:46,226] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:33:46,422] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:33:46,853] {logging_mixin.py:115} INFO - [2022-08-21 16:33:46,853] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:33:46,866] {logging_mixin.py:115} INFO - [2022-08-21 16:33:46,866] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:33:46,879] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.659 seconds
+[2022-08-21 16:34:46,780] {processor.py:153} INFO - Started process (PID=3788) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:34:46,785] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:34:46,786] {logging_mixin.py:115} INFO - [2022-08-21 16:34:46,786] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:34:46,967] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:34:47,551] {logging_mixin.py:115} INFO - [2022-08-21 16:34:47,551] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:34:47,564] {logging_mixin.py:115} INFO - [2022-08-21 16:34:47,563] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:34:47,577] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.798 seconds
+[2022-08-21 16:35:45,257] {processor.py:153} INFO - Started process (PID=3825) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:35:45,263] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:35:45,264] {logging_mixin.py:115} INFO - [2022-08-21 16:35:45,264] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:35:45,568] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:35:46,207] {logging_mixin.py:115} INFO - [2022-08-21 16:35:46,207] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:35:46,218] {logging_mixin.py:115} INFO - [2022-08-21 16:35:46,218] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:35:46,230] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.973 seconds
+[2022-08-21 16:36:48,994] {processor.py:153} INFO - Started process (PID=3865) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:36:49,000] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:36:49,000] {logging_mixin.py:115} INFO - [2022-08-21 16:36:49,000] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:36:49,168] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:36:49,511] {logging_mixin.py:115} INFO - [2022-08-21 16:36:49,511] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:36:49,523] {logging_mixin.py:115} INFO - [2022-08-21 16:36:49,523] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:36:49,540] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.547 seconds
+[2022-08-21 16:37:48,882] {processor.py:153} INFO - Started process (PID=3900) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:37:48,882] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:37:48,882] {logging_mixin.py:115} INFO - [2022-08-21 16:37:48,882] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:37:49,029] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:37:49,341] {logging_mixin.py:115} INFO - [2022-08-21 16:37:49,341] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:37:49,352] {logging_mixin.py:115} INFO - [2022-08-21 16:37:49,352] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:37:49,369] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.487 seconds
+[2022-08-21 16:38:46,816] {processor.py:153} INFO - Started process (PID=3935) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:38:46,821] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:38:46,822] {logging_mixin.py:115} INFO - [2022-08-21 16:38:46,822] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:38:47,115] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:38:47,686] {logging_mixin.py:115} INFO - [2022-08-21 16:38:47,686] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:38:47,698] {logging_mixin.py:115} INFO - [2022-08-21 16:38:47,698] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:38:47,711] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.897 seconds
+[2022-08-21 16:39:49,833] {processor.py:153} INFO - Started process (PID=3973) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:39:49,833] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:39:49,833] {logging_mixin.py:115} INFO - [2022-08-21 16:39:49,833] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:39:49,996] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:39:50,329] {logging_mixin.py:115} INFO - [2022-08-21 16:39:50,329] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:39:50,343] {logging_mixin.py:115} INFO - [2022-08-21 16:39:50,343] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:39:50,362] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.530 seconds
+[2022-08-21 16:40:50,970] {processor.py:153} INFO - Started process (PID=4008) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:40:50,976] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:40:50,976] {logging_mixin.py:115} INFO - [2022-08-21 16:40:50,976] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:40:51,288] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:40:51,939] {logging_mixin.py:115} INFO - [2022-08-21 16:40:51,939] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:40:51,951] {logging_mixin.py:115} INFO - [2022-08-21 16:40:51,951] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:40:51,967] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.997 seconds
+[2022-08-21 16:41:51,919] {processor.py:153} INFO - Started process (PID=4046) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:41:51,919] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:41:51,919] {logging_mixin.py:115} INFO - [2022-08-21 16:41:51,919] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:41:52,080] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:41:52,422] {logging_mixin.py:115} INFO - [2022-08-21 16:41:52,422] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:41:52,434] {logging_mixin.py:115} INFO - [2022-08-21 16:41:52,434] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:41:52,451] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.533 seconds
+[2022-08-21 16:42:53,986] {processor.py:153} INFO - Started process (PID=4084) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:42:53,988] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:42:53,988] {logging_mixin.py:115} INFO - [2022-08-21 16:42:53,988] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:42:54,311] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:42:54,954] {logging_mixin.py:115} INFO - [2022-08-21 16:42:54,954] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:42:54,969] {logging_mixin.py:115} INFO - [2022-08-21 16:42:54,969] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:42:54,983] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.998 seconds
+[2022-08-21 16:43:58,496] {processor.py:153} INFO - Started process (PID=4179) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:43:58,502] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:43:58,502] {logging_mixin.py:115} INFO - [2022-08-21 16:43:58,502] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:43:58,688] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:43:59,025] {logging_mixin.py:115} INFO - [2022-08-21 16:43:59,025] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:43:59,037] {logging_mixin.py:115} INFO - [2022-08-21 16:43:59,037] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:43:59,055] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.559 seconds
+[2022-08-21 16:45:01,915] {processor.py:153} INFO - Started process (PID=4287) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:45:01,920] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:45:01,921] {logging_mixin.py:115} INFO - [2022-08-21 16:45:01,921] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:45:02,088] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:45:02,446] {logging_mixin.py:115} INFO - [2022-08-21 16:45:02,446] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:45:02,458] {logging_mixin.py:115} INFO - [2022-08-21 16:45:02,458] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:45:02,475] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.561 seconds
+[2022-08-21 16:46:16,397] {processor.py:153} INFO - Started process (PID=4429) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:46:16,402] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:46:16,403] {logging_mixin.py:115} INFO - [2022-08-21 16:46:16,403] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:46:16,570] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:46:16,937] {logging_mixin.py:115} INFO - [2022-08-21 16:46:16,937] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:46:16,949] {logging_mixin.py:115} INFO - [2022-08-21 16:46:16,949] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:46:16,966] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.569 seconds
+[2022-08-21 16:47:14,283] {processor.py:153} INFO - Started process (PID=4545) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:47:14,289] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:47:14,289] {logging_mixin.py:115} INFO - [2022-08-21 16:47:14,289] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:47:14,476] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:47:15,004] {logging_mixin.py:115} INFO - [2022-08-21 16:47:15,004] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:47:15,020] {logging_mixin.py:115} INFO - [2022-08-21 16:47:15,020] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:47:15,040] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.758 seconds
+[2022-08-21 16:48:22,835] {processor.py:153} INFO - Started process (PID=4592) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:48:22,841] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:48:22,842] {logging_mixin.py:115} INFO - [2022-08-21 16:48:22,842] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:48:23,011] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:48:23,343] {logging_mixin.py:115} INFO - [2022-08-21 16:48:23,343] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:48:23,354] {logging_mixin.py:115} INFO - [2022-08-21 16:48:23,354] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:48:23,371] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.537 seconds
+[2022-08-21 16:49:26,544] {processor.py:153} INFO - Started process (PID=4635) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:49:26,545] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:49:26,545] {logging_mixin.py:115} INFO - [2022-08-21 16:49:26,545] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:49:26,712] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:49:27,028] {logging_mixin.py:115} INFO - [2022-08-21 16:49:27,028] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:49:27,039] {logging_mixin.py:115} INFO - [2022-08-21 16:49:27,039] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:49:27,056] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.512 seconds
+[2022-08-21 16:50:28,521] {processor.py:153} INFO - Started process (PID=4672) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:50:28,521] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:50:28,522] {logging_mixin.py:115} INFO - [2022-08-21 16:50:28,521] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:50:28,727] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:50:29,207] {logging_mixin.py:115} INFO - [2022-08-21 16:50:29,206] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:50:29,227] {logging_mixin.py:115} INFO - [2022-08-21 16:50:29,227] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:50:29,239] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.719 seconds
+[2022-08-21 16:51:27,280] {processor.py:153} INFO - Started process (PID=4772) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:51:27,286] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:51:27,287] {logging_mixin.py:115} INFO - [2022-08-21 16:51:27,286] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:51:27,452] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:51:27,768] {logging_mixin.py:115} INFO - [2022-08-21 16:51:27,767] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:51:27,779] {logging_mixin.py:115} INFO - [2022-08-21 16:51:27,779] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:51:27,796] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.517 seconds
+[2022-08-21 16:52:24,022] {processor.py:153} INFO - Started process (PID=4990) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:52:24,022] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:52:24,022] {logging_mixin.py:115} INFO - [2022-08-21 16:52:24,022] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:52:24,186] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:52:24,499] {logging_mixin.py:115} INFO - [2022-08-21 16:52:24,499] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:52:24,510] {logging_mixin.py:115} INFO - [2022-08-21 16:52:24,510] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:52:24,527] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.507 seconds
+[2022-08-21 16:53:24,484] {processor.py:153} INFO - Started process (PID=5126) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:53:24,484] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:53:24,484] {logging_mixin.py:115} INFO - [2022-08-21 16:53:24,484] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:53:24,949] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:53:25,604] {logging_mixin.py:115} INFO - [2022-08-21 16:53:25,603] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:53:25,624] {logging_mixin.py:115} INFO - [2022-08-21 16:53:25,624] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:53:25,641] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 1.158 seconds
+[2022-08-21 16:54:27,405] {processor.py:153} INFO - Started process (PID=5178) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:54:27,405] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:54:27,405] {logging_mixin.py:115} INFO - [2022-08-21 16:54:27,405] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:54:27,570] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:54:27,954] {logging_mixin.py:115} INFO - [2022-08-21 16:54:27,953] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:54:27,967] {logging_mixin.py:115} INFO - [2022-08-21 16:54:27,967] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:54:27,985] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.581 seconds
+[2022-08-21 16:55:33,710] {processor.py:153} INFO - Started process (PID=5252) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:55:33,716] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-08-21 16:55:33,717] {logging_mixin.py:115} INFO - [2022-08-21 16:55:33,717] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:55:33,904] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-08-21 16:55:34,292] {logging_mixin.py:115} INFO - [2022-08-21 16:55:34,292] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-21 16:55:34,304] {logging_mixin.py:115} INFO - [2022-08-21 16:55:34,304] {dag.py:2968} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-08-21 16:55:34,320] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.610 seconds

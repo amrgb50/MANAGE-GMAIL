@@ -19,6 +19,7 @@ class authentication :
         self.sqlengine = None
 
     def getgmailAuthentication(self):
+        gmailcreds = None
         if os.path.exists('token.json'):
             gmailcreds = Credentials.from_authorized_user_file('token.json', SCOPES)
         # If there are no (valid) credentials available, let the user log in.

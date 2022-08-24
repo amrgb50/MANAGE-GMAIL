@@ -1,0 +1,390 @@
+[2022-08-21 16:14:28,300] {processor.py:153} INFO - Started process (PID=3362) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:14:28,301] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:14:28,301] {logging_mixin.py:115} INFO - [2022-08-21 16:14:28,301] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:14:28,371] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:14:29,260] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,260] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2022-08-21 16:14:29,268] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,268] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2022-08-21 16:14:29,275] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,275] {manager.py:508} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2022-08-21 16:14:29,275] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,275] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:14:29,282] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,281] {dag.py:2439} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2022-08-21 16:14:29,282] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,282] {dag.py:2439} INFO - Creating ORM DAG for example_subdag_operator
+[2022-08-21 16:14:29,282] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,282] {dag.py:2439} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2022-08-21 16:14:29,290] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,290] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:14:29,290] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,290] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:14:29,291] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,291] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:14:29,295] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,295] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:14:29,298] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,298] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:14:29,298] {logging_mixin.py:115} INFO - [2022-08-21 16:14:29,298] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:14:29,307] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 1.007 seconds
+[2022-08-21 16:15:45,652] {processor.py:153} INFO - Started process (PID=3423) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:15:45,653] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:15:45,653] {logging_mixin.py:115} INFO - [2022-08-21 16:15:45,653] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:15:45,702] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:15:45,731] {logging_mixin.py:115} INFO - [2022-08-21 16:15:45,731] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:15:45,742] {logging_mixin.py:115} INFO - [2022-08-21 16:15:45,742] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:15:45,742] {logging_mixin.py:115} INFO - [2022-08-21 16:15:45,742] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:15:45,742] {logging_mixin.py:115} INFO - [2022-08-21 16:15:45,742] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:15:45,746] {logging_mixin.py:115} INFO - [2022-08-21 16:15:45,746] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:15:45,749] {logging_mixin.py:115} INFO - [2022-08-21 16:15:45,749] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:15:45,749] {logging_mixin.py:115} INFO - [2022-08-21 16:15:45,749] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:15:45,755] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.104 seconds
+[2022-08-21 16:16:43,786] {processor.py:153} INFO - Started process (PID=3458) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:16:43,786] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:16:43,786] {logging_mixin.py:115} INFO - [2022-08-21 16:16:43,786] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:16:43,829] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:16:43,856] {logging_mixin.py:115} INFO - [2022-08-21 16:16:43,856] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:16:43,866] {logging_mixin.py:115} INFO - [2022-08-21 16:16:43,866] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:16:43,867] {logging_mixin.py:115} INFO - [2022-08-21 16:16:43,866] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:16:43,867] {logging_mixin.py:115} INFO - [2022-08-21 16:16:43,867] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:16:43,870] {logging_mixin.py:115} INFO - [2022-08-21 16:16:43,870] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:16:43,873] {logging_mixin.py:115} INFO - [2022-08-21 16:16:43,872] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:16:43,873] {logging_mixin.py:115} INFO - [2022-08-21 16:16:43,873] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:16:43,886] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.101 seconds
+[2022-08-21 16:17:40,036] {processor.py:153} INFO - Started process (PID=3492) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:17:40,038] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:17:40,038] {logging_mixin.py:115} INFO - [2022-08-21 16:17:40,038] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:17:40,091] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:17:40,119] {logging_mixin.py:115} INFO - [2022-08-21 16:17:40,119] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:17:40,129] {logging_mixin.py:115} INFO - [2022-08-21 16:17:40,129] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:17:40,130] {logging_mixin.py:115} INFO - [2022-08-21 16:17:40,130] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:17:40,130] {logging_mixin.py:115} INFO - [2022-08-21 16:17:40,130] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:17:40,133] {logging_mixin.py:115} INFO - [2022-08-21 16:17:40,133] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:17:40,136] {logging_mixin.py:115} INFO - [2022-08-21 16:17:40,136] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:17:40,136] {logging_mixin.py:115} INFO - [2022-08-21 16:17:40,136] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:17:40,144] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.109 seconds
+[2022-08-21 16:28:25,081] {processor.py:153} INFO - Started process (PID=3550) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:28:25,087] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:28:25,088] {logging_mixin.py:115} INFO - [2022-08-21 16:28:25,088] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:28:25,140] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:28:25,168] {logging_mixin.py:115} INFO - [2022-08-21 16:28:25,168] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:28:25,178] {logging_mixin.py:115} INFO - [2022-08-21 16:28:25,178] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:28:25,178] {logging_mixin.py:115} INFO - [2022-08-21 16:28:25,178] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:28:25,178] {logging_mixin.py:115} INFO - [2022-08-21 16:28:25,178] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:28:25,182] {logging_mixin.py:115} INFO - [2022-08-21 16:28:25,182] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:28:25,184] {logging_mixin.py:115} INFO - [2022-08-21 16:28:25,184] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:28:25,184] {logging_mixin.py:115} INFO - [2022-08-21 16:28:25,184] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:28:25,196] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.115 seconds
+[2022-08-21 16:29:22,305] {processor.py:153} INFO - Started process (PID=3587) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:29:22,305] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:29:22,305] {logging_mixin.py:115} INFO - [2022-08-21 16:29:22,305] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:29:22,348] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:29:22,375] {logging_mixin.py:115} INFO - [2022-08-21 16:29:22,375] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:29:22,385] {logging_mixin.py:115} INFO - [2022-08-21 16:29:22,385] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:29:22,385] {logging_mixin.py:115} INFO - [2022-08-21 16:29:22,385] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:29:22,386] {logging_mixin.py:115} INFO - [2022-08-21 16:29:22,386] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:29:22,389] {logging_mixin.py:115} INFO - [2022-08-21 16:29:22,389] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:29:22,392] {logging_mixin.py:115} INFO - [2022-08-21 16:29:22,392] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:29:22,392] {logging_mixin.py:115} INFO - [2022-08-21 16:29:22,392] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:29:22,405] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.100 seconds
+[2022-08-21 16:30:16,459] {processor.py:153} INFO - Started process (PID=3623) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:30:16,459] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:30:16,459] {logging_mixin.py:115} INFO - [2022-08-21 16:30:16,459] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:30:16,507] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:30:16,537] {logging_mixin.py:115} INFO - [2022-08-21 16:30:16,537] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:30:16,549] {logging_mixin.py:115} INFO - [2022-08-21 16:30:16,549] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:30:16,549] {logging_mixin.py:115} INFO - [2022-08-21 16:30:16,549] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:30:16,549] {logging_mixin.py:115} INFO - [2022-08-21 16:30:16,549] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:30:16,554] {logging_mixin.py:115} INFO - [2022-08-21 16:30:16,553] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:30:16,557] {logging_mixin.py:115} INFO - [2022-08-21 16:30:16,556] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:30:16,557] {logging_mixin.py:115} INFO - [2022-08-21 16:30:16,557] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:30:16,571] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.112 seconds
+[2022-08-21 16:31:14,698] {processor.py:153} INFO - Started process (PID=3653) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:31:14,704] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:31:14,705] {logging_mixin.py:115} INFO - [2022-08-21 16:31:14,705] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:31:14,758] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:31:14,786] {logging_mixin.py:115} INFO - [2022-08-21 16:31:14,786] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:31:14,796] {logging_mixin.py:115} INFO - [2022-08-21 16:31:14,796] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:31:14,797] {logging_mixin.py:115} INFO - [2022-08-21 16:31:14,797] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:31:14,797] {logging_mixin.py:115} INFO - [2022-08-21 16:31:14,797] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:31:14,800] {logging_mixin.py:115} INFO - [2022-08-21 16:31:14,800] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:31:14,803] {logging_mixin.py:115} INFO - [2022-08-21 16:31:14,803] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:31:14,803] {logging_mixin.py:115} INFO - [2022-08-21 16:31:14,803] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:31:14,812] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.115 seconds
+[2022-08-21 16:32:19,888] {processor.py:153} INFO - Started process (PID=3699) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:32:19,894] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:32:19,895] {logging_mixin.py:115} INFO - [2022-08-21 16:32:19,895] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:32:19,949] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:32:19,978] {logging_mixin.py:115} INFO - [2022-08-21 16:32:19,978] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:32:19,989] {logging_mixin.py:115} INFO - [2022-08-21 16:32:19,989] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:32:19,989] {logging_mixin.py:115} INFO - [2022-08-21 16:32:19,989] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:32:19,989] {logging_mixin.py:115} INFO - [2022-08-21 16:32:19,989] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:32:19,993] {logging_mixin.py:115} INFO - [2022-08-21 16:32:19,992] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:32:19,995] {logging_mixin.py:115} INFO - [2022-08-21 16:32:19,995] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:32:19,995] {logging_mixin.py:115} INFO - [2022-08-21 16:32:19,995] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:32:20,004] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.117 seconds
+[2022-08-21 16:33:18,049] {processor.py:153} INFO - Started process (PID=3734) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:33:18,055] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:33:18,055] {logging_mixin.py:115} INFO - [2022-08-21 16:33:18,055] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:33:18,112] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:33:18,143] {logging_mixin.py:115} INFO - [2022-08-21 16:33:18,143] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:33:18,155] {logging_mixin.py:115} INFO - [2022-08-21 16:33:18,154] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:33:18,155] {logging_mixin.py:115} INFO - [2022-08-21 16:33:18,155] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:33:18,155] {logging_mixin.py:115} INFO - [2022-08-21 16:33:18,155] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:33:18,159] {logging_mixin.py:115} INFO - [2022-08-21 16:33:18,158] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:33:18,161] {logging_mixin.py:115} INFO - [2022-08-21 16:33:18,161] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:33:18,161] {logging_mixin.py:115} INFO - [2022-08-21 16:33:18,161] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:33:18,174] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.126 seconds
+[2022-08-21 16:34:18,985] {processor.py:153} INFO - Started process (PID=3772) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:34:18,991] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:34:18,992] {logging_mixin.py:115} INFO - [2022-08-21 16:34:18,991] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:34:19,045] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:34:19,074] {logging_mixin.py:115} INFO - [2022-08-21 16:34:19,074] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:34:19,086] {logging_mixin.py:115} INFO - [2022-08-21 16:34:19,086] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:34:19,086] {logging_mixin.py:115} INFO - [2022-08-21 16:34:19,086] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:34:19,086] {logging_mixin.py:115} INFO - [2022-08-21 16:34:19,086] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:34:19,090] {logging_mixin.py:115} INFO - [2022-08-21 16:34:19,090] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:34:19,093] {logging_mixin.py:115} INFO - [2022-08-21 16:34:19,093] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:34:19,093] {logging_mixin.py:115} INFO - [2022-08-21 16:34:19,093] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:34:19,099] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.114 seconds
+[2022-08-21 16:35:17,980] {processor.py:153} INFO - Started process (PID=3806) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:35:17,981] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:35:17,982] {logging_mixin.py:115} INFO - [2022-08-21 16:35:17,982] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:35:18,050] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:35:18,088] {logging_mixin.py:115} INFO - [2022-08-21 16:35:18,088] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:35:18,100] {logging_mixin.py:115} INFO - [2022-08-21 16:35:18,100] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:35:18,100] {logging_mixin.py:115} INFO - [2022-08-21 16:35:18,100] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:35:18,100] {logging_mixin.py:115} INFO - [2022-08-21 16:35:18,100] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:35:18,105] {logging_mixin.py:115} INFO - [2022-08-21 16:35:18,104] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:35:18,107] {logging_mixin.py:115} INFO - [2022-08-21 16:35:18,107] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:35:18,108] {logging_mixin.py:115} INFO - [2022-08-21 16:35:18,107] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:35:18,113] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.133 seconds
+[2022-08-21 16:36:17,885] {processor.py:153} INFO - Started process (PID=3846) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:36:17,886] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:36:17,886] {logging_mixin.py:115} INFO - [2022-08-21 16:36:17,886] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:36:17,953] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:36:17,989] {logging_mixin.py:115} INFO - [2022-08-21 16:36:17,989] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:36:18,002] {logging_mixin.py:115} INFO - [2022-08-21 16:36:18,002] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:36:18,002] {logging_mixin.py:115} INFO - [2022-08-21 16:36:18,002] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:36:18,002] {logging_mixin.py:115} INFO - [2022-08-21 16:36:18,002] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:36:18,006] {logging_mixin.py:115} INFO - [2022-08-21 16:36:18,006] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:36:18,009] {logging_mixin.py:115} INFO - [2022-08-21 16:36:18,009] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:36:18,009] {logging_mixin.py:115} INFO - [2022-08-21 16:36:18,009] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:36:18,017] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.133 seconds
+[2022-08-21 16:37:18,753] {processor.py:153} INFO - Started process (PID=3881) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:37:18,753] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:37:18,753] {logging_mixin.py:115} INFO - [2022-08-21 16:37:18,753] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:37:18,797] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:37:18,825] {logging_mixin.py:115} INFO - [2022-08-21 16:37:18,825] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:37:18,835] {logging_mixin.py:115} INFO - [2022-08-21 16:37:18,835] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:37:18,835] {logging_mixin.py:115} INFO - [2022-08-21 16:37:18,835] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:37:18,835] {logging_mixin.py:115} INFO - [2022-08-21 16:37:18,835] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:37:18,839] {logging_mixin.py:115} INFO - [2022-08-21 16:37:18,839] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:37:18,842] {logging_mixin.py:115} INFO - [2022-08-21 16:37:18,841] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:37:18,842] {logging_mixin.py:115} INFO - [2022-08-21 16:37:18,842] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:37:18,854] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.101 seconds
+[2022-08-21 16:38:12,901] {processor.py:153} INFO - Started process (PID=3915) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:38:12,901] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:38:12,902] {logging_mixin.py:115} INFO - [2022-08-21 16:38:12,902] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:38:12,945] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:38:12,973] {logging_mixin.py:115} INFO - [2022-08-21 16:38:12,973] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:38:12,983] {logging_mixin.py:115} INFO - [2022-08-21 16:38:12,983] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:38:12,984] {logging_mixin.py:115} INFO - [2022-08-21 16:38:12,983] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:38:12,984] {logging_mixin.py:115} INFO - [2022-08-21 16:38:12,984] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:38:12,987] {logging_mixin.py:115} INFO - [2022-08-21 16:38:12,987] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:38:12,990] {logging_mixin.py:115} INFO - [2022-08-21 16:38:12,990] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:38:12,990] {logging_mixin.py:115} INFO - [2022-08-21 16:38:12,990] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:38:12,998] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.097 seconds
+[2022-08-21 16:39:14,786] {processor.py:153} INFO - Started process (PID=3951) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:39:14,792] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:39:14,792] {logging_mixin.py:115} INFO - [2022-08-21 16:39:14,792] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:39:14,850] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:39:14,883] {logging_mixin.py:115} INFO - [2022-08-21 16:39:14,883] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:39:14,895] {logging_mixin.py:115} INFO - [2022-08-21 16:39:14,895] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:39:14,896] {logging_mixin.py:115} INFO - [2022-08-21 16:39:14,896] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:39:14,896] {logging_mixin.py:115} INFO - [2022-08-21 16:39:14,896] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:39:14,900] {logging_mixin.py:115} INFO - [2022-08-21 16:39:14,900] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:39:14,903] {logging_mixin.py:115} INFO - [2022-08-21 16:39:14,903] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:39:14,903] {logging_mixin.py:115} INFO - [2022-08-21 16:39:14,903] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:39:14,910] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.124 seconds
+[2022-08-21 16:40:13,288] {processor.py:153} INFO - Started process (PID=3986) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:40:13,288] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:40:13,289] {logging_mixin.py:115} INFO - [2022-08-21 16:40:13,289] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:40:13,335] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:40:13,365] {logging_mixin.py:115} INFO - [2022-08-21 16:40:13,365] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:40:13,376] {logging_mixin.py:115} INFO - [2022-08-21 16:40:13,376] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:40:13,377] {logging_mixin.py:115} INFO - [2022-08-21 16:40:13,377] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:40:13,377] {logging_mixin.py:115} INFO - [2022-08-21 16:40:13,377] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:40:13,380] {logging_mixin.py:115} INFO - [2022-08-21 16:40:13,380] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:40:13,383] {logging_mixin.py:115} INFO - [2022-08-21 16:40:13,383] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:40:13,383] {logging_mixin.py:115} INFO - [2022-08-21 16:40:13,383] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:40:13,396] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.109 seconds
+[2022-08-21 16:41:13,647] {processor.py:153} INFO - Started process (PID=4022) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:41:13,652] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:41:13,653] {logging_mixin.py:115} INFO - [2022-08-21 16:41:13,653] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:41:13,707] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:41:13,736] {logging_mixin.py:115} INFO - [2022-08-21 16:41:13,736] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:41:13,747] {logging_mixin.py:115} INFO - [2022-08-21 16:41:13,747] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:41:13,748] {logging_mixin.py:115} INFO - [2022-08-21 16:41:13,748] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:41:13,748] {logging_mixin.py:115} INFO - [2022-08-21 16:41:13,748] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:41:13,751] {logging_mixin.py:115} INFO - [2022-08-21 16:41:13,751] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:41:13,754] {logging_mixin.py:115} INFO - [2022-08-21 16:41:13,754] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:41:13,755] {logging_mixin.py:115} INFO - [2022-08-21 16:41:13,755] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:41:13,763] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.117 seconds
+[2022-08-21 16:42:12,634] {processor.py:153} INFO - Started process (PID=4059) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:42:12,634] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:42:12,634] {logging_mixin.py:115} INFO - [2022-08-21 16:42:12,634] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:42:12,681] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:42:12,711] {logging_mixin.py:115} INFO - [2022-08-21 16:42:12,711] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:42:12,722] {logging_mixin.py:115} INFO - [2022-08-21 16:42:12,722] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:42:12,723] {logging_mixin.py:115} INFO - [2022-08-21 16:42:12,723] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:42:12,723] {logging_mixin.py:115} INFO - [2022-08-21 16:42:12,723] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:42:12,727] {logging_mixin.py:115} INFO - [2022-08-21 16:42:12,727] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:42:12,729] {logging_mixin.py:115} INFO - [2022-08-21 16:42:12,729] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:42:12,729] {logging_mixin.py:115} INFO - [2022-08-21 16:42:12,729] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:42:12,744] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.110 seconds
+[2022-08-21 16:43:16,023] {processor.py:153} INFO - Started process (PID=4096) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:43:16,028] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:43:16,029] {logging_mixin.py:115} INFO - [2022-08-21 16:43:16,029] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:43:16,083] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:43:16,114] {logging_mixin.py:115} INFO - [2022-08-21 16:43:16,114] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:43:16,126] {logging_mixin.py:115} INFO - [2022-08-21 16:43:16,126] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:43:16,126] {logging_mixin.py:115} INFO - [2022-08-21 16:43:16,126] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:43:16,127] {logging_mixin.py:115} INFO - [2022-08-21 16:43:16,127] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:43:16,130] {logging_mixin.py:115} INFO - [2022-08-21 16:43:16,130] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:43:16,133] {logging_mixin.py:115} INFO - [2022-08-21 16:43:16,133] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:43:16,133] {logging_mixin.py:115} INFO - [2022-08-21 16:43:16,133] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:43:16,142] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.120 seconds
+[2022-08-21 16:44:20,320] {processor.py:153} INFO - Started process (PID=4208) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:44:20,326] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:44:20,326] {logging_mixin.py:115} INFO - [2022-08-21 16:44:20,326] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:44:20,390] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:44:20,421] {logging_mixin.py:115} INFO - [2022-08-21 16:44:20,421] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:44:20,433] {logging_mixin.py:115} INFO - [2022-08-21 16:44:20,433] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:44:20,433] {logging_mixin.py:115} INFO - [2022-08-21 16:44:20,433] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:44:20,433] {logging_mixin.py:115} INFO - [2022-08-21 16:44:20,433] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:44:20,437] {logging_mixin.py:115} INFO - [2022-08-21 16:44:20,437] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:44:20,439] {logging_mixin.py:115} INFO - [2022-08-21 16:44:20,439] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:44:20,440] {logging_mixin.py:115} INFO - [2022-08-21 16:44:20,440] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:44:20,453] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.134 seconds
+[2022-08-21 16:45:18,071] {processor.py:153} INFO - Started process (PID=4317) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:45:18,071] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:45:18,071] {logging_mixin.py:115} INFO - [2022-08-21 16:45:18,071] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:45:18,116] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:45:18,148] {logging_mixin.py:115} INFO - [2022-08-21 16:45:18,148] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:45:18,159] {logging_mixin.py:115} INFO - [2022-08-21 16:45:18,158] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:45:18,159] {logging_mixin.py:115} INFO - [2022-08-21 16:45:18,159] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:45:18,159] {logging_mixin.py:115} INFO - [2022-08-21 16:45:18,159] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:45:18,162] {logging_mixin.py:115} INFO - [2022-08-21 16:45:18,162] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:45:18,165] {logging_mixin.py:115} INFO - [2022-08-21 16:45:18,165] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:45:18,165] {logging_mixin.py:115} INFO - [2022-08-21 16:45:18,165] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:45:18,178] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.108 seconds
+[2022-08-21 16:46:14,603] {processor.py:153} INFO - Started process (PID=4428) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:46:14,609] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:46:14,609] {logging_mixin.py:115} INFO - [2022-08-21 16:46:14,609] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:46:14,663] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:46:14,692] {logging_mixin.py:115} INFO - [2022-08-21 16:46:14,692] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:46:14,703] {logging_mixin.py:115} INFO - [2022-08-21 16:46:14,703] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:46:14,703] {logging_mixin.py:115} INFO - [2022-08-21 16:46:14,703] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:46:14,703] {logging_mixin.py:115} INFO - [2022-08-21 16:46:14,703] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:46:14,707] {logging_mixin.py:115} INFO - [2022-08-21 16:46:14,707] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:46:14,709] {logging_mixin.py:115} INFO - [2022-08-21 16:46:14,709] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:46:14,710] {logging_mixin.py:115} INFO - [2022-08-21 16:46:14,710] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:46:14,720] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.117 seconds
+[2022-08-21 16:47:12,178] {processor.py:153} INFO - Started process (PID=4538) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:47:12,183] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:47:12,184] {logging_mixin.py:115} INFO - [2022-08-21 16:47:12,184] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:47:12,245] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:47:12,277] {logging_mixin.py:115} INFO - [2022-08-21 16:47:12,277] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:47:12,289] {logging_mixin.py:115} INFO - [2022-08-21 16:47:12,289] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:47:12,289] {logging_mixin.py:115} INFO - [2022-08-21 16:47:12,289] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:47:12,290] {logging_mixin.py:115} INFO - [2022-08-21 16:47:12,290] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:47:12,294] {logging_mixin.py:115} INFO - [2022-08-21 16:47:12,294] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:47:12,298] {logging_mixin.py:115} INFO - [2022-08-21 16:47:12,298] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:47:12,298] {logging_mixin.py:115} INFO - [2022-08-21 16:47:12,298] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:47:12,304] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.126 seconds
+[2022-08-21 16:48:21,025] {processor.py:153} INFO - Started process (PID=4589) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:48:21,031] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:48:21,031] {logging_mixin.py:115} INFO - [2022-08-21 16:48:21,031] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:48:21,077] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:48:21,105] {logging_mixin.py:115} INFO - [2022-08-21 16:48:21,105] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:48:21,116] {logging_mixin.py:115} INFO - [2022-08-21 16:48:21,116] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:48:21,116] {logging_mixin.py:115} INFO - [2022-08-21 16:48:21,116] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:48:21,116] {logging_mixin.py:115} INFO - [2022-08-21 16:48:21,116] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:48:21,120] {logging_mixin.py:115} INFO - [2022-08-21 16:48:21,120] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:48:21,123] {logging_mixin.py:115} INFO - [2022-08-21 16:48:21,123] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:48:21,123] {logging_mixin.py:115} INFO - [2022-08-21 16:48:21,123] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:48:21,131] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.106 seconds
+[2022-08-21 16:49:24,754] {processor.py:153} INFO - Started process (PID=4632) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:49:24,755] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:49:24,755] {logging_mixin.py:115} INFO - [2022-08-21 16:49:24,755] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:49:24,805] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:49:24,834] {logging_mixin.py:115} INFO - [2022-08-21 16:49:24,834] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:49:24,845] {logging_mixin.py:115} INFO - [2022-08-21 16:49:24,845] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:49:24,845] {logging_mixin.py:115} INFO - [2022-08-21 16:49:24,845] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:49:24,845] {logging_mixin.py:115} INFO - [2022-08-21 16:49:24,845] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:49:24,849] {logging_mixin.py:115} INFO - [2022-08-21 16:49:24,848] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:49:24,851] {logging_mixin.py:115} INFO - [2022-08-21 16:49:24,851] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:49:24,851] {logging_mixin.py:115} INFO - [2022-08-21 16:49:24,851] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:49:24,860] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.106 seconds
+[2022-08-21 16:50:26,540] {processor.py:153} INFO - Started process (PID=4671) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:50:26,541] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:50:26,541] {logging_mixin.py:115} INFO - [2022-08-21 16:50:26,541] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:50:26,626] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:50:26,674] {logging_mixin.py:115} INFO - [2022-08-21 16:50:26,674] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:50:26,689] {logging_mixin.py:115} INFO - [2022-08-21 16:50:26,689] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:50:26,689] {logging_mixin.py:115} INFO - [2022-08-21 16:50:26,689] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:50:26,689] {logging_mixin.py:115} INFO - [2022-08-21 16:50:26,689] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:50:26,694] {logging_mixin.py:115} INFO - [2022-08-21 16:50:26,694] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:50:26,699] {logging_mixin.py:115} INFO - [2022-08-21 16:50:26,699] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:50:26,699] {logging_mixin.py:115} INFO - [2022-08-21 16:50:26,699] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:50:26,707] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.167 seconds
+[2022-08-21 16:51:25,222] {processor.py:153} INFO - Started process (PID=4768) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:51:25,223] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:51:25,224] {logging_mixin.py:115} INFO - [2022-08-21 16:51:25,224] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:51:25,451] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:51:25,559] {logging_mixin.py:115} INFO - [2022-08-21 16:51:25,559] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:51:25,587] {logging_mixin.py:115} INFO - [2022-08-21 16:51:25,587] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:51:25,587] {logging_mixin.py:115} INFO - [2022-08-21 16:51:25,587] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:51:25,588] {logging_mixin.py:115} INFO - [2022-08-21 16:51:25,588] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:51:25,592] {logging_mixin.py:115} INFO - [2022-08-21 16:51:25,592] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:51:25,596] {logging_mixin.py:115} INFO - [2022-08-21 16:51:25,596] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:51:25,596] {logging_mixin.py:115} INFO - [2022-08-21 16:51:25,596] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:51:25,603] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.382 seconds
+[2022-08-21 16:52:22,599] {processor.py:153} INFO - Started process (PID=4984) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:52:22,599] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:52:22,599] {logging_mixin.py:115} INFO - [2022-08-21 16:52:22,599] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:52:22,643] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:52:22,671] {logging_mixin.py:115} INFO - [2022-08-21 16:52:22,671] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:52:22,682] {logging_mixin.py:115} INFO - [2022-08-21 16:52:22,682] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:52:22,682] {logging_mixin.py:115} INFO - [2022-08-21 16:52:22,682] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:52:22,682] {logging_mixin.py:115} INFO - [2022-08-21 16:52:22,682] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:52:22,686] {logging_mixin.py:115} INFO - [2022-08-21 16:52:22,685] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:52:22,688] {logging_mixin.py:115} INFO - [2022-08-21 16:52:22,688] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:52:22,688] {logging_mixin.py:115} INFO - [2022-08-21 16:52:22,688] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:52:22,701] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.103 seconds
+[2022-08-21 16:53:20,399] {processor.py:153} INFO - Started process (PID=5109) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:53:20,399] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:53:20,399] {logging_mixin.py:115} INFO - [2022-08-21 16:53:20,399] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:53:20,442] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:53:20,469] {logging_mixin.py:115} INFO - [2022-08-21 16:53:20,469] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:53:20,480] {logging_mixin.py:115} INFO - [2022-08-21 16:53:20,479] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:53:20,480] {logging_mixin.py:115} INFO - [2022-08-21 16:53:20,480] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:53:20,480] {logging_mixin.py:115} INFO - [2022-08-21 16:53:20,480] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:53:20,483] {logging_mixin.py:115} INFO - [2022-08-21 16:53:20,483] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:53:20,486] {logging_mixin.py:115} INFO - [2022-08-21 16:53:20,486] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:53:20,486] {logging_mixin.py:115} INFO - [2022-08-21 16:53:20,486] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:53:20,495] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.096 seconds
+[2022-08-21 16:54:23,340] {processor.py:153} INFO - Started process (PID=5171) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:54:23,340] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:54:23,341] {logging_mixin.py:115} INFO - [2022-08-21 16:54:23,341] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:54:23,393] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:54:23,426] {logging_mixin.py:115} INFO - [2022-08-21 16:54:23,426] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:54:23,438] {logging_mixin.py:115} INFO - [2022-08-21 16:54:23,438] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:54:23,438] {logging_mixin.py:115} INFO - [2022-08-21 16:54:23,438] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:54:23,438] {logging_mixin.py:115} INFO - [2022-08-21 16:54:23,438] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:54:23,442] {logging_mixin.py:115} INFO - [2022-08-21 16:54:23,442] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:54:23,445] {logging_mixin.py:115} INFO - [2022-08-21 16:54:23,445] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:54:23,445] {logging_mixin.py:115} INFO - [2022-08-21 16:54:23,445] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:54:23,458] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.119 seconds
+[2022-08-21 16:55:29,469] {processor.py:153} INFO - Started process (PID=5244) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:55:29,470] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-08-21 16:55:29,470] {logging_mixin.py:115} INFO - [2022-08-21 16:55:29,470] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:55:29,529] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-08-21 16:55:29,569] {logging_mixin.py:115} INFO - [2022-08-21 16:55:29,569] {dag.py:2420} INFO - Sync 3 DAGs
+[2022-08-21 16:55:29,585] {logging_mixin.py:115} INFO - [2022-08-21 16:55:29,584] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-08-21 16:55:29,585] {logging_mixin.py:115} INFO - [2022-08-21 16:55:29,585] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:55:29,585] {logging_mixin.py:115} INFO - [2022-08-21 16:55:29,585] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:55:29,590] {logging_mixin.py:115} INFO - [2022-08-21 16:55:29,590] {dag.py:2420} INFO - Sync 2 DAGs
+[2022-08-21 16:55:29,593] {logging_mixin.py:115} INFO - [2022-08-21 16:55:29,593] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-08-21 16:55:29,593] {logging_mixin.py:115} INFO - [2022-08-21 16:55:29,593] {dag.py:2968} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-08-21 16:55:29,600] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.132 seconds
