@@ -36,7 +36,10 @@ class gmailExtract() :
                             dt = parseddatetime.date()
                         elif headers['name'] == 'From' :
                             frm = headers['value']
-                            __, frmEmail = frm.replace(">",'').split(" <")
+                            if "<" in frm and ">" in frm :
+                                __, frmEmail = frm.replace(">",'').split(" <")
+                            else:
+                                frmEmail = frm
                     self.msgInfoList.append([msg_id,dt,frmEmail])  
             else : 
                 print("No emails to read!!\nAttention empty msglist is being passed")

@@ -9,3 +9,5 @@ dataviz*
 share/
 airflow.db
 airflow.cfg
+airflow*
+webserver_config.py

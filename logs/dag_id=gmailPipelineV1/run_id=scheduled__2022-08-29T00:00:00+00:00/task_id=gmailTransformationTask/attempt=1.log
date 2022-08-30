@@ -1,0 +1,23 @@
+[2022-08-29 20:52:54,469] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipelineV1.gmailTransformationTask scheduled__2022-08-29T00:00:00+00:00 [queued]>
+[2022-08-29 20:52:54,475] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipelineV1.gmailTransformationTask scheduled__2022-08-29T00:00:00+00:00 [queued]>
+[2022-08-29 20:52:54,475] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29 20:52:54,475] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-08-29 20:52:54,475] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29 20:52:54,483] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): gmailTransformationTask> on 2022-08-29 00:00:00+00:00
+[2022-08-29 20:52:54,485] {standard_task_runner.py:52} INFO - Started process 1919 to run task
+[2022-08-29 20:52:54,491] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'gmailPipelineV1', 'gmailTransformationTask', 'scheduled__2022-08-29T00:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/gmailDag.py', '--cfg-path', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmp4ce8bblo', '--error-file', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmpn9qbx9i8']
+[2022-08-29 20:52:54,493] {standard_task_runner.py:80} INFO - Job 48: Subtask gmailTransformationTask
+[2022-08-29 20:52:54,538] {task_command.py:371} INFO - Running <TaskInstance: gmailPipelineV1.gmailTransformationTask scheduled__2022-08-29T00:00:00+00:00 [running]> on host abhays-mbp.lan
+[2022-08-29 20:52:54,579] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=gmailPipelineV1
+AIRFLOW_CTX_TASK_ID=gmailTransformationTask
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-29T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-29T00:00:00+00:00
+[2022-08-29 20:52:54,586] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-29 20:52:54,591] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=gmailPipelineV1, task_id=gmailTransformationTask, execution_date=20220829T000000, start_date=20220830T005254, end_date=20220830T005254
+[2022-08-29 20:52:54,641] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-29 20:52:54,668] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,119 @@
+[2022-08-29 21:31:22,938] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipelineV1.gmailTbLoadTask manual__2022-08-30T01:31:08.351201+00:00 [queued]>
+[2022-08-29 21:31:22,944] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipelineV1.gmailTbLoadTask manual__2022-08-30T01:31:08.351201+00:00 [queued]>
+[2022-08-29 21:31:22,944] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29 21:31:22,944] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-08-29 21:31:22,944] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29 21:31:22,954] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): gmailTbLoadTask> on 2022-08-30 01:31:08.351201+00:00
+[2022-08-29 21:31:22,956] {standard_task_runner.py:52} INFO - Started process 3829 to run task
+[2022-08-29 21:31:22,960] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'gmailPipelineV1', 'gmailTbLoadTask', 'manual__2022-08-30T01:31:08.351201+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/gmailDag.py', '--cfg-path', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmpzaqr_5bn', '--error-file', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmp4qucqmro']
+[2022-08-29 21:31:22,962] {standard_task_runner.py:80} INFO - Job 55: Subtask gmailTbLoadTask
+[2022-08-29 21:31:23,013] {task_command.py:371} INFO - Running <TaskInstance: gmailPipelineV1.gmailTbLoadTask manual__2022-08-30T01:31:08.351201+00:00 [running]> on host abhays-mbp.lan
+[2022-08-29 21:31:23,060] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=gmailPipelineV1
+AIRFLOW_CTX_TASK_ID=gmailTbLoadTask
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-30T01:31:08.351201+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-30T01:31:08.351201+00:00
+[2022-08-29 21:31:23,124] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1782, in _execute_context
+    self.dialect.do_executemany(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 193, in do_executemany
+    rowcount = cursor.executemany(statement, parameters)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 173, in executemany
+    return self._do_execute_many(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 211, in _do_execute_many
+    rows += self.execute(sql + postfix)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '182ebf54232f3cbd' for key 'gmailmsgs.PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py", line 40, in pullGmailLoad
+    tbLoad.gmailMsgLoad()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/gmailLoad.py", line 11, in gmailMsgLoad
+    self.gmailMsgDF.to_sql('gmailMsgs',self.sqlconn,if_exists='append', index=False )
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2951, in to_sql
+    return sql.to_sql(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 697, in to_sql
+    return pandas_sql.to_sql(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 1739, in to_sql
+    total_inserted = sql_engine.insert_records(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 1332, in insert_records
+    raise err
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 1322, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 950, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 857, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1289, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1481, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1845, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 2026, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1782, in _execute_context
+    self.dialect.do_executemany(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 193, in do_executemany
+    rowcount = cursor.executemany(statement, parameters)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 173, in executemany
+    return self._do_execute_many(
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 211, in _do_execute_many
+    rows += self.execute(sql + postfix)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/abhaymone/src/dev/sand/MANAGE-GMAIL/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '182ebf54232f3cbd' for key 'gmailmsgs.PRIMARY'")
+[SQL: INSERT INTO `gmailMsgs` (`MSG_ID`, `RECEIVE_DT`, `FRM_EMAIL`) VALUES (%(MSG_ID)s, %(RECEIVE_DT)s, %(FRM_EMAIL)s)]
+[parameters: ({'MSG_ID': '182ebf54232f3cbd', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'noreply@robinhood.com'}, {'MSG_ID': '182ebddc84371cf4', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'noreply@everlance.com'}, {'MSG_ID': '182ebc125662bfa6', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'info@reservation.flyfrontier.com'}, {'MSG_ID': '182ebbbca668042d', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'flights@emails.flyfrontier.com'}, {'MSG_ID': '182ebb6305fceaa6', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'no.reply.alerts@chase.com'}, {'MSG_ID': '182eb5f37ad9e18e', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'Vidhi@corpbizsolutions.com'}, {'MSG_ID': '182ea96a8b82af10', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'cloud-success@grafana.com'}, {'MSG_ID': '182e9a717c0514b8', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'mint@em1.mint.intuit.com'}  ... displaying 10 of 15 total bound parameter sets ...  {'MSG_ID': '182e6db9044368b2', 'RECEIVE_DT': '2022-08-28', 'FRM_EMAIL': 'mint@em1.mint.intuit.com'}, {'MSG_ID': '182e680d3a44d605', 'RECEIVE_DT': '2022-08-28', 'FRM_EMAIL': 'no-reply@coinbase.com'})]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2022-08-29 21:31:23,145] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=gmailPipelineV1, task_id=gmailTbLoadTask, execution_date=20220830T013108, start_date=20220830T013122, end_date=20220830T013123
+[2022-08-29 21:31:23,154] {standard_task_runner.py:92} ERROR - Failed to execute job 55 for task gmailTbLoadTask ((pymysql.err.IntegrityError) (1062, "Duplicate entry '182ebf54232f3cbd' for key 'gmailmsgs.PRIMARY'")
+[SQL: INSERT INTO `gmailMsgs` (`MSG_ID`, `RECEIVE_DT`, `FRM_EMAIL`) VALUES (%(MSG_ID)s, %(RECEIVE_DT)s, %(FRM_EMAIL)s)]
+[parameters: ({'MSG_ID': '182ebf54232f3cbd', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'noreply@robinhood.com'}, {'MSG_ID': '182ebddc84371cf4', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'noreply@everlance.com'}, {'MSG_ID': '182ebc125662bfa6', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'info@reservation.flyfrontier.com'}, {'MSG_ID': '182ebbbca668042d', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'flights@emails.flyfrontier.com'}, {'MSG_ID': '182ebb6305fceaa6', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'no.reply.alerts@chase.com'}, {'MSG_ID': '182eb5f37ad9e18e', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'Vidhi@corpbizsolutions.com'}, {'MSG_ID': '182ea96a8b82af10', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'cloud-success@grafana.com'}, {'MSG_ID': '182e9a717c0514b8', 'RECEIVE_DT': '2022-08-29', 'FRM_EMAIL': 'mint@em1.mint.intuit.com'}  ... displaying 10 of 15 total bound parameter sets ...  {'MSG_ID': '182e6db9044368b2', 'RECEIVE_DT': '2022-08-28', 'FRM_EMAIL': 'mint@em1.mint.intuit.com'}, {'MSG_ID': '182e680d3a44d605', 'RECEIVE_DT': '2022-08-28', 'FRM_EMAIL': 'no-reply@coinbase.com'})]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 3829)
+[2022-08-29 21:31:23,165] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-29 21:31:23,183] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
