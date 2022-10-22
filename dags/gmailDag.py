@@ -24,8 +24,7 @@ def pullGmailExtract():
     auth = authentication()
     gextract =  gmailExtract(authcred=auth.getgmailAuthentication())
     if gextract.extractUnreadEmails():
-        #gextract.unreademails()
-        pass
+        gextract.unreademails()
 
 def gmailTransformatn():
     #pickup file from raw layer and do transformation

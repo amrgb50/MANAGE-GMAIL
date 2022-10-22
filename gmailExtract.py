@@ -34,22 +34,23 @@ class gmailExtract() :
                         if headers['name'] == 'Date' :
                             parseddatetime = parser.parse(headers['value']) 
                             dt = parseddatetime.date()
+                            print(dt)
                         elif headers['name'] == 'From' :
                             frm = headers['value']
-                            if "<" in frm and ">" in frm :
-                                __, frmEmail = frm.replace(">",'').split(" <")
+                            if "<" in frm and " " in frm :
+                                __, frmEmail = frm.replace(">",'').split("<")                      
                             else:
                                 frmEmail = frm
                     self.msgInfoList.append([msg_id,dt,frmEmail])  
+                rawFileDict = {
+                'data' : self.msgInfoList
+                }
+                with open('data/rawLayer/gmailExtract.txt','w') as f:
+                    json.dump(rawFileDict, f, default=str)
+                return 1
             else : 
                 print("No emails to read!!\nAttention empty msglist is being passed")
-            
-            rawFileDict = {
-                'data' : self.msgInfoList
-            }
-            with open('data/rawLayer/gmailExtract.txt','w') as f:
-                json.dump(rawFileDict, f, default=str)
-                return 1
+                return 0
         except HttpError as error:
             # TODO(developer) - Handle errors from gmail API.
             print(f'An error occurred: {error}')
