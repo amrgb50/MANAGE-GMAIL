@@ -48,7 +48,8 @@ class authentication :
         dbusr = configP['dev']['DB_USER']
         dbpass = configP['dev']['DB_PASS']
         dbhost = configP['dev']['DB_HOST']
-        self.sqlengine = create_engine(f"mysql+pymysql://{dbusr}:{dbpass}@{dbhost}/gmailTables")
+        dbname = configP['dev']['DB_NAME']
+        self.sqlengine = create_engine(f"mysql+pymysql://{dbusr}:{dbpass}@{dbhost}/{dbname}")
         return self.sqlengine
 
         
