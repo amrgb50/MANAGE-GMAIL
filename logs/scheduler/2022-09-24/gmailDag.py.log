@@ -1,0 +1,707 @@
+[2022-09-24 19:02:25,728] {processor.py:153} INFO - Started process (PID=1774) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:02:25,728] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:02:25,729] {logging_mixin.py:115} INFO - [2022-09-24 19:02:25,729] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:02:26,961] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:02:27,019] {logging_mixin.py:115} INFO - [2022-09-24 19:02:27,019] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:02:27,031] {logging_mixin.py:115} INFO - [2022-09-24 19:02:27,031] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-18T00:00:00+00:00, run_after=2022-09-19T00:00:00+00:00
+[2022-09-24 19:02:27,040] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.313 seconds
+[2022-09-24 19:02:58,962] {processor.py:153} INFO - Started process (PID=1845) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:02:58,962] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:02:58,962] {logging_mixin.py:115} INFO - [2022-09-24 19:02:58,962] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:02:59,546] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:02:59,605] {logging_mixin.py:115} INFO - [2022-09-24 19:02:59,605] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:02:59,619] {logging_mixin.py:115} INFO - [2022-09-24 19:02:59,619] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-21T00:00:00+00:00, run_after=2022-09-22T00:00:00+00:00
+[2022-09-24 19:02:59,629] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.668 seconds
+[2022-09-24 19:03:30,664] {processor.py:153} INFO - Started process (PID=1896) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:03:30,665] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:03:30,665] {logging_mixin.py:115} INFO - [2022-09-24 19:03:30,665] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:03:31,114] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:03:31,194] {logging_mixin.py:115} INFO - [2022-09-24 19:03:31,194] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:03:31,210] {logging_mixin.py:115} INFO - [2022-09-24 19:03:31,210] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:03:31,222] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.558 seconds
+[2022-09-24 19:04:03,396] {processor.py:153} INFO - Started process (PID=1909) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:04:03,397] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:04:03,397] {logging_mixin.py:115} INFO - [2022-09-24 19:04:03,397] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:04:04,565] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:04:04,637] {logging_mixin.py:115} INFO - [2022-09-24 19:04:04,637] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:04:04,650] {logging_mixin.py:115} INFO - [2022-09-24 19:04:04,650] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:04:04,661] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.266 seconds
+[2022-09-24 19:04:36,247] {processor.py:153} INFO - Started process (PID=1931) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:04:36,248] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:04:36,248] {logging_mixin.py:115} INFO - [2022-09-24 19:04:36,248] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:04:37,396] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:04:37,479] {logging_mixin.py:115} INFO - [2022-09-24 19:04:37,479] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:04:37,494] {logging_mixin.py:115} INFO - [2022-09-24 19:04:37,494] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:04:37,507] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.261 seconds
+[2022-09-24 19:05:08,894] {processor.py:153} INFO - Started process (PID=1962) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:05:08,895] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:05:08,895] {logging_mixin.py:115} INFO - [2022-09-24 19:05:08,895] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:05:09,908] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:05:09,982] {logging_mixin.py:115} INFO - [2022-09-24 19:05:09,982] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:05:09,997] {logging_mixin.py:115} INFO - [2022-09-24 19:05:09,997] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:05:10,008] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.115 seconds
+[2022-09-24 19:05:41,563] {processor.py:153} INFO - Started process (PID=2146) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:05:41,563] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:05:41,564] {logging_mixin.py:115} INFO - [2022-09-24 19:05:41,564] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:05:42,570] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:05:42,646] {logging_mixin.py:115} INFO - [2022-09-24 19:05:42,646] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:05:42,660] {logging_mixin.py:115} INFO - [2022-09-24 19:05:42,660] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:05:42,669] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.107 seconds
+[2022-09-24 19:06:14,159] {processor.py:153} INFO - Started process (PID=2228) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:06:14,159] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:06:14,159] {logging_mixin.py:115} INFO - [2022-09-24 19:06:14,159] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:06:15,244] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:06:15,319] {logging_mixin.py:115} INFO - [2022-09-24 19:06:15,319] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:06:15,332] {logging_mixin.py:115} INFO - [2022-09-24 19:06:15,332] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:06:15,346] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.187 seconds
+[2022-09-24 19:06:46,871] {processor.py:153} INFO - Started process (PID=2242) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:06:46,872] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:06:46,872] {logging_mixin.py:115} INFO - [2022-09-24 19:06:46,872] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:06:47,989] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:06:48,065] {logging_mixin.py:115} INFO - [2022-09-24 19:06:48,065] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:06:48,079] {logging_mixin.py:115} INFO - [2022-09-24 19:06:48,079] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:06:48,091] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.220 seconds
+[2022-09-24 19:07:19,486] {processor.py:153} INFO - Started process (PID=2254) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:07:19,486] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:07:19,487] {logging_mixin.py:115} INFO - [2022-09-24 19:07:19,487] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:07:20,477] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:07:20,553] {logging_mixin.py:115} INFO - [2022-09-24 19:07:20,553] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:07:20,570] {logging_mixin.py:115} INFO - [2022-09-24 19:07:20,570] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:07:20,582] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.097 seconds
+[2022-09-24 19:07:51,982] {processor.py:153} INFO - Started process (PID=2334) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:07:51,983] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:07:51,983] {logging_mixin.py:115} INFO - [2022-09-24 19:07:51,983] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:07:52,956] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:07:53,029] {logging_mixin.py:115} INFO - [2022-09-24 19:07:53,029] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:07:53,042] {logging_mixin.py:115} INFO - [2022-09-24 19:07:53,042] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:07:53,053] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.072 seconds
+[2022-09-24 19:08:24,474] {processor.py:153} INFO - Started process (PID=2344) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:08:24,475] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:08:24,475] {logging_mixin.py:115} INFO - [2022-09-24 19:08:24,475] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:08:25,555] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:08:25,627] {logging_mixin.py:115} INFO - [2022-09-24 19:08:25,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:08:25,643] {logging_mixin.py:115} INFO - [2022-09-24 19:08:25,643] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:08:25,652] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.179 seconds
+[2022-09-24 19:08:57,067] {processor.py:153} INFO - Started process (PID=2346) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:08:57,068] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:08:57,068] {logging_mixin.py:115} INFO - [2022-09-24 19:08:57,068] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:08:58,113] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:08:58,184] {logging_mixin.py:115} INFO - [2022-09-24 19:08:58,183] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:08:58,199] {logging_mixin.py:115} INFO - [2022-09-24 19:08:58,198] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:08:58,210] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.144 seconds
+[2022-09-24 19:09:29,567] {processor.py:153} INFO - Started process (PID=2359) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:09:29,568] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:09:29,568] {logging_mixin.py:115} INFO - [2022-09-24 19:09:29,568] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:09:30,658] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:09:30,734] {logging_mixin.py:115} INFO - [2022-09-24 19:09:30,734] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:09:30,747] {logging_mixin.py:115} INFO - [2022-09-24 19:09:30,747] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:09:30,756] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.189 seconds
+[2022-09-24 19:10:04,076] {processor.py:153} INFO - Started process (PID=2386) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:10:04,076] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:10:04,077] {logging_mixin.py:115} INFO - [2022-09-24 19:10:04,077] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:10:04,609] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:10:04,674] {logging_mixin.py:115} INFO - [2022-09-24 19:10:04,674] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:10:04,692] {logging_mixin.py:115} INFO - [2022-09-24 19:10:04,692] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:10:04,709] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.633 seconds
+[2022-09-24 19:10:36,768] {processor.py:153} INFO - Started process (PID=2415) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:10:36,769] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:10:36,769] {logging_mixin.py:115} INFO - [2022-09-24 19:10:36,769] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:10:37,665] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:10:37,735] {logging_mixin.py:115} INFO - [2022-09-24 19:10:37,735] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:10:37,748] {logging_mixin.py:115} INFO - [2022-09-24 19:10:37,748] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:10:37,757] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.990 seconds
+[2022-09-24 19:11:10,081] {processor.py:153} INFO - Started process (PID=2459) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:11:10,081] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:11:10,082] {logging_mixin.py:115} INFO - [2022-09-24 19:11:10,082] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:11:11,118] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:11:11,199] {logging_mixin.py:115} INFO - [2022-09-24 19:11:11,198] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:11:11,215] {logging_mixin.py:115} INFO - [2022-09-24 19:11:11,215] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:11:11,228] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.148 seconds
+[2022-09-24 19:11:43,184] {processor.py:153} INFO - Started process (PID=2503) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:11:43,185] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:11:43,186] {logging_mixin.py:115} INFO - [2022-09-24 19:11:43,186] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:11:44,313] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:11:44,384] {logging_mixin.py:115} INFO - [2022-09-24 19:11:44,383] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:11:44,399] {logging_mixin.py:115} INFO - [2022-09-24 19:11:44,399] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:11:44,412] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.228 seconds
+[2022-09-24 19:12:16,110] {processor.py:153} INFO - Started process (PID=2544) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:12:16,111] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:12:16,111] {logging_mixin.py:115} INFO - [2022-09-24 19:12:16,111] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:12:17,142] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:12:17,347] {logging_mixin.py:115} INFO - [2022-09-24 19:12:17,347] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:12:17,412] {logging_mixin.py:115} INFO - [2022-09-24 19:12:17,412] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:12:17,428] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.321 seconds
+[2022-09-24 19:12:49,245] {processor.py:153} INFO - Started process (PID=2596) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:12:49,246] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:12:49,246] {logging_mixin.py:115} INFO - [2022-09-24 19:12:49,246] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:12:50,530] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:12:50,601] {logging_mixin.py:115} INFO - [2022-09-24 19:12:50,601] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:12:50,621] {logging_mixin.py:115} INFO - [2022-09-24 19:12:50,621] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:12:50,630] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.387 seconds
+[2022-09-24 19:13:22,061] {processor.py:153} INFO - Started process (PID=2648) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:13:22,061] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:13:22,062] {logging_mixin.py:115} INFO - [2022-09-24 19:13:22,062] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:13:23,275] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:13:23,377] {logging_mixin.py:115} INFO - [2022-09-24 19:13:23,377] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:13:23,397] {logging_mixin.py:115} INFO - [2022-09-24 19:13:23,396] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:13:23,407] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.348 seconds
+[2022-09-24 19:13:54,366] {processor.py:153} INFO - Started process (PID=2686) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:13:54,366] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:13:54,366] {logging_mixin.py:115} INFO - [2022-09-24 19:13:54,366] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:13:54,892] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:13:54,985] {logging_mixin.py:115} INFO - [2022-09-24 19:13:54,984] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:13:55,012] {logging_mixin.py:115} INFO - [2022-09-24 19:13:55,011] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:13:55,035] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.670 seconds
+[2022-09-24 19:14:26,399] {processor.py:153} INFO - Started process (PID=2724) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:14:26,399] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:14:26,400] {logging_mixin.py:115} INFO - [2022-09-24 19:14:26,399] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:14:27,336] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:14:27,415] {logging_mixin.py:115} INFO - [2022-09-24 19:14:27,415] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:14:27,446] {logging_mixin.py:115} INFO - [2022-09-24 19:14:27,446] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:14:27,462] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.064 seconds
+[2022-09-24 19:14:59,015] {processor.py:153} INFO - Started process (PID=2762) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:14:59,015] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:14:59,016] {logging_mixin.py:115} INFO - [2022-09-24 19:14:59,016] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:15:00,074] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:15:00,139] {logging_mixin.py:115} INFO - [2022-09-24 19:15:00,139] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:15:00,153] {logging_mixin.py:115} INFO - [2022-09-24 19:15:00,153] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:15:00,166] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.152 seconds
+[2022-09-24 19:15:31,783] {processor.py:153} INFO - Started process (PID=2802) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:15:31,784] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:15:31,784] {logging_mixin.py:115} INFO - [2022-09-24 19:15:31,784] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:15:33,181] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:15:33,319] {logging_mixin.py:115} INFO - [2022-09-24 19:15:33,319] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:15:33,357] {logging_mixin.py:115} INFO - [2022-09-24 19:15:33,357] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:15:33,386] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.603 seconds
+[2022-09-24 19:16:04,895] {processor.py:153} INFO - Started process (PID=2839) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:16:04,896] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:16:04,896] {logging_mixin.py:115} INFO - [2022-09-24 19:16:04,896] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:16:06,011] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:16:06,088] {logging_mixin.py:115} INFO - [2022-09-24 19:16:06,088] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:16:06,104] {logging_mixin.py:115} INFO - [2022-09-24 19:16:06,104] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:16:06,119] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.224 seconds
+[2022-09-24 19:16:37,660] {processor.py:153} INFO - Started process (PID=2852) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:16:37,660] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:16:37,661] {logging_mixin.py:115} INFO - [2022-09-24 19:16:37,661] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:16:38,945] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:16:39,020] {logging_mixin.py:115} INFO - [2022-09-24 19:16:39,020] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:16:39,037] {logging_mixin.py:115} INFO - [2022-09-24 19:16:39,037] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:16:39,049] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.391 seconds
+[2022-09-24 19:17:10,820] {processor.py:153} INFO - Started process (PID=2853) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:17:10,821] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:17:10,821] {logging_mixin.py:115} INFO - [2022-09-24 19:17:10,821] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:17:11,574] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:17:11,640] {logging_mixin.py:115} INFO - [2022-09-24 19:17:11,640] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:17:11,655] {logging_mixin.py:115} INFO - [2022-09-24 19:17:11,655] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:17:11,665] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.845 seconds
+[2022-09-24 19:17:43,192] {processor.py:153} INFO - Started process (PID=2863) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:17:43,193] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:17:43,193] {logging_mixin.py:115} INFO - [2022-09-24 19:17:43,193] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:17:43,889] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:17:43,954] {logging_mixin.py:115} INFO - [2022-09-24 19:17:43,954] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:17:43,969] {logging_mixin.py:115} INFO - [2022-09-24 19:17:43,969] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:17:43,982] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.790 seconds
+[2022-09-24 19:18:15,451] {processor.py:153} INFO - Started process (PID=2870) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:18:15,451] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:18:15,452] {logging_mixin.py:115} INFO - [2022-09-24 19:18:15,452] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:18:16,437] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:18:16,535] {logging_mixin.py:115} INFO - [2022-09-24 19:18:16,535] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:18:16,556] {logging_mixin.py:115} INFO - [2022-09-24 19:18:16,556] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:18:16,576] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.126 seconds
+[2022-09-24 19:18:48,221] {processor.py:153} INFO - Started process (PID=2877) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:18:48,222] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:18:48,222] {logging_mixin.py:115} INFO - [2022-09-24 19:18:48,222] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:18:49,312] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:18:49,386] {logging_mixin.py:115} INFO - [2022-09-24 19:18:49,386] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:18:49,399] {logging_mixin.py:115} INFO - [2022-09-24 19:18:49,399] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:18:49,410] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.189 seconds
+[2022-09-24 19:19:20,902] {processor.py:153} INFO - Started process (PID=2889) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:19:20,903] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:19:20,903] {logging_mixin.py:115} INFO - [2022-09-24 19:19:20,903] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:19:22,585] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:19:22,724] {logging_mixin.py:115} INFO - [2022-09-24 19:19:22,724] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:19:22,750] {logging_mixin.py:115} INFO - [2022-09-24 19:19:22,750] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:19:22,761] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.860 seconds
+[2022-09-24 19:19:54,152] {processor.py:153} INFO - Started process (PID=2899) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:19:54,153] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:19:54,153] {logging_mixin.py:115} INFO - [2022-09-24 19:19:54,153] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:19:55,100] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:19:55,173] {logging_mixin.py:115} INFO - [2022-09-24 19:19:55,173] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:19:55,186] {logging_mixin.py:115} INFO - [2022-09-24 19:19:55,186] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:19:55,197] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.046 seconds
+[2022-09-24 19:20:26,593] {processor.py:153} INFO - Started process (PID=2908) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:20:26,593] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:20:26,594] {logging_mixin.py:115} INFO - [2022-09-24 19:20:26,594] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:20:27,622] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:20:27,699] {logging_mixin.py:115} INFO - [2022-09-24 19:20:27,699] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:20:27,715] {logging_mixin.py:115} INFO - [2022-09-24 19:20:27,715] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:20:27,727] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.135 seconds
+[2022-09-24 19:20:59,649] {processor.py:153} INFO - Started process (PID=2946) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:20:59,649] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:20:59,650] {logging_mixin.py:115} INFO - [2022-09-24 19:20:59,650] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:21:00,662] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:21:00,737] {logging_mixin.py:115} INFO - [2022-09-24 19:21:00,736] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:21:00,751] {logging_mixin.py:115} INFO - [2022-09-24 19:21:00,751] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:21:00,760] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.112 seconds
+[2022-09-24 19:21:32,133] {processor.py:153} INFO - Started process (PID=2951) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:21:32,134] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:21:32,134] {logging_mixin.py:115} INFO - [2022-09-24 19:21:32,134] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:21:33,474] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:21:33,549] {logging_mixin.py:115} INFO - [2022-09-24 19:21:33,549] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:21:33,564] {logging_mixin.py:115} INFO - [2022-09-24 19:21:33,564] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:21:33,573] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.441 seconds
+[2022-09-24 19:22:04,969] {processor.py:153} INFO - Started process (PID=2962) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:22:04,970] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:22:04,972] {logging_mixin.py:115} INFO - [2022-09-24 19:22:04,970] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:22:06,214] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:22:06,327] {logging_mixin.py:115} INFO - [2022-09-24 19:22:06,327] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:22:06,340] {logging_mixin.py:115} INFO - [2022-09-24 19:22:06,340] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:22:06,350] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.382 seconds
+[2022-09-24 19:22:37,983] {processor.py:153} INFO - Started process (PID=2982) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:22:37,984] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:22:37,985] {logging_mixin.py:115} INFO - [2022-09-24 19:22:37,984] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:22:39,096] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:22:39,160] {logging_mixin.py:115} INFO - [2022-09-24 19:22:39,160] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:22:39,174] {logging_mixin.py:115} INFO - [2022-09-24 19:22:39,174] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:22:39,184] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.202 seconds
+[2022-09-24 19:23:10,730] {processor.py:153} INFO - Started process (PID=3144) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:23:10,731] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:23:10,732] {logging_mixin.py:115} INFO - [2022-09-24 19:23:10,731] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:23:11,920] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:23:12,033] {logging_mixin.py:115} INFO - [2022-09-24 19:23:12,032] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:23:12,055] {logging_mixin.py:115} INFO - [2022-09-24 19:23:12,055] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:23:12,066] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.336 seconds
+[2022-09-24 19:23:43,723] {processor.py:153} INFO - Started process (PID=3153) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:23:43,723] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:23:43,724] {logging_mixin.py:115} INFO - [2022-09-24 19:23:43,724] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:23:44,792] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:23:44,873] {logging_mixin.py:115} INFO - [2022-09-24 19:23:44,873] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:23:44,887] {logging_mixin.py:115} INFO - [2022-09-24 19:23:44,887] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:23:44,896] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.174 seconds
+[2022-09-24 19:24:16,350] {processor.py:153} INFO - Started process (PID=3155) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:24:16,350] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:24:16,351] {logging_mixin.py:115} INFO - [2022-09-24 19:24:16,351] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:24:17,515] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:24:17,593] {logging_mixin.py:115} INFO - [2022-09-24 19:24:17,593] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:24:17,608] {logging_mixin.py:115} INFO - [2022-09-24 19:24:17,608] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:24:17,621] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.272 seconds
+[2022-09-24 19:24:49,205] {processor.py:153} INFO - Started process (PID=3158) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:24:49,205] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:24:49,206] {logging_mixin.py:115} INFO - [2022-09-24 19:24:49,206] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:24:50,255] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:24:50,327] {logging_mixin.py:115} INFO - [2022-09-24 19:24:50,327] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:24:50,340] {logging_mixin.py:115} INFO - [2022-09-24 19:24:50,340] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:24:50,348] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.144 seconds
+[2022-09-24 19:25:21,820] {processor.py:153} INFO - Started process (PID=3162) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:25:21,820] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:25:21,821] {logging_mixin.py:115} INFO - [2022-09-24 19:25:21,821] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:25:22,838] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:25:22,900] {logging_mixin.py:115} INFO - [2022-09-24 19:25:22,900] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:25:22,914] {logging_mixin.py:115} INFO - [2022-09-24 19:25:22,913] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:25:22,922] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.104 seconds
+[2022-09-24 19:25:54,496] {processor.py:153} INFO - Started process (PID=3168) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:25:54,496] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:25:54,497] {logging_mixin.py:115} INFO - [2022-09-24 19:25:54,496] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:25:55,474] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:25:55,544] {logging_mixin.py:115} INFO - [2022-09-24 19:25:55,544] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:25:55,557] {logging_mixin.py:115} INFO - [2022-09-24 19:25:55,557] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:25:55,569] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.074 seconds
+[2022-09-24 19:26:27,120] {processor.py:153} INFO - Started process (PID=3174) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:26:27,121] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:26:27,121] {logging_mixin.py:115} INFO - [2022-09-24 19:26:27,121] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:26:28,181] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:26:28,257] {logging_mixin.py:115} INFO - [2022-09-24 19:26:28,257] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:26:28,270] {logging_mixin.py:115} INFO - [2022-09-24 19:26:28,270] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:26:28,278] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.159 seconds
+[2022-09-24 19:26:59,778] {processor.py:153} INFO - Started process (PID=3176) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:26:59,778] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:26:59,779] {logging_mixin.py:115} INFO - [2022-09-24 19:26:59,779] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:27:00,820] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:27:00,912] {logging_mixin.py:115} INFO - [2022-09-24 19:27:00,912] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:27:00,934] {logging_mixin.py:115} INFO - [2022-09-24 19:27:00,934] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:27:00,948] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.171 seconds
+[2022-09-24 19:27:31,998] {processor.py:153} INFO - Started process (PID=3182) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:27:31,998] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:27:31,998] {logging_mixin.py:115} INFO - [2022-09-24 19:27:31,998] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:27:32,413] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:27:32,465] {logging_mixin.py:115} INFO - [2022-09-24 19:27:32,465] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:27:32,477] {logging_mixin.py:115} INFO - [2022-09-24 19:27:32,477] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:27:32,494] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.497 seconds
+[2022-09-24 19:28:03,917] {processor.py:153} INFO - Started process (PID=3197) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:28:03,917] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:28:03,918] {logging_mixin.py:115} INFO - [2022-09-24 19:28:03,918] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:28:04,966] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:28:05,047] {logging_mixin.py:115} INFO - [2022-09-24 19:28:05,047] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:28:05,061] {logging_mixin.py:115} INFO - [2022-09-24 19:28:05,061] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:28:05,071] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.156 seconds
+[2022-09-24 19:28:37,248] {processor.py:153} INFO - Started process (PID=3242) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:28:37,249] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:28:37,249] {logging_mixin.py:115} INFO - [2022-09-24 19:28:37,249] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:28:38,453] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:28:38,529] {logging_mixin.py:115} INFO - [2022-09-24 19:28:38,529] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:28:38,560] {logging_mixin.py:115} INFO - [2022-09-24 19:28:38,560] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:28:38,574] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.326 seconds
+[2022-09-24 19:29:09,989] {processor.py:153} INFO - Started process (PID=3262) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:29:09,990] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:29:09,990] {logging_mixin.py:115} INFO - [2022-09-24 19:29:09,990] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:29:11,047] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:29:11,123] {logging_mixin.py:115} INFO - [2022-09-24 19:29:11,123] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:29:11,137] {logging_mixin.py:115} INFO - [2022-09-24 19:29:11,137] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:29:11,146] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.158 seconds
+[2022-09-24 19:29:42,585] {processor.py:153} INFO - Started process (PID=3266) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:29:42,586] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:29:42,586] {logging_mixin.py:115} INFO - [2022-09-24 19:29:42,586] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:29:43,599] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:29:43,677] {logging_mixin.py:115} INFO - [2022-09-24 19:29:43,676] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:29:43,691] {logging_mixin.py:115} INFO - [2022-09-24 19:29:43,691] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:29:43,702] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.117 seconds
+[2022-09-24 19:30:15,363] {processor.py:153} INFO - Started process (PID=3271) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:30:15,363] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:30:15,364] {logging_mixin.py:115} INFO - [2022-09-24 19:30:15,364] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:30:16,276] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:30:16,348] {logging_mixin.py:115} INFO - [2022-09-24 19:30:16,348] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:30:16,362] {logging_mixin.py:115} INFO - [2022-09-24 19:30:16,361] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:30:16,373] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.011 seconds
+[2022-09-24 19:30:47,240] {processor.py:153} INFO - Started process (PID=3275) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:30:47,240] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:30:47,240] {logging_mixin.py:115} INFO - [2022-09-24 19:30:47,240] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:30:47,664] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:30:47,717] {logging_mixin.py:115} INFO - [2022-09-24 19:30:47,717] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:30:47,730] {logging_mixin.py:115} INFO - [2022-09-24 19:30:47,730] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:30:47,745] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.506 seconds
+[2022-09-24 19:31:18,620] {processor.py:153} INFO - Started process (PID=3277) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:31:18,620] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:31:18,620] {logging_mixin.py:115} INFO - [2022-09-24 19:31:18,620] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:31:19,053] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:31:19,107] {logging_mixin.py:115} INFO - [2022-09-24 19:31:19,107] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:31:19,123] {logging_mixin.py:115} INFO - [2022-09-24 19:31:19,123] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:31:19,135] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.516 seconds
+[2022-09-24 19:31:50,089] {processor.py:153} INFO - Started process (PID=3279) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:31:50,089] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:31:50,089] {logging_mixin.py:115} INFO - [2022-09-24 19:31:50,089] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:31:50,639] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:31:50,732] {logging_mixin.py:115} INFO - [2022-09-24 19:31:50,732] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:31:50,749] {logging_mixin.py:115} INFO - [2022-09-24 19:31:50,749] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:31:50,767] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.678 seconds
+[2022-09-24 19:32:21,678] {processor.py:153} INFO - Started process (PID=3281) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:32:21,678] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:32:21,678] {logging_mixin.py:115} INFO - [2022-09-24 19:32:21,678] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:32:22,130] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:32:22,184] {logging_mixin.py:115} INFO - [2022-09-24 19:32:22,183] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:32:22,197] {logging_mixin.py:115} INFO - [2022-09-24 19:32:22,197] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:32:22,208] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.531 seconds
+[2022-09-24 19:32:53,092] {processor.py:153} INFO - Started process (PID=3285) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:32:53,092] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:32:53,093] {logging_mixin.py:115} INFO - [2022-09-24 19:32:53,093] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:32:53,531] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:32:53,585] {logging_mixin.py:115} INFO - [2022-09-24 19:32:53,585] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:32:53,599] {logging_mixin.py:115} INFO - [2022-09-24 19:32:53,599] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:32:53,616] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.525 seconds
+[2022-09-24 19:33:24,510] {processor.py:153} INFO - Started process (PID=3287) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:33:24,510] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:33:24,510] {logging_mixin.py:115} INFO - [2022-09-24 19:33:24,510] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:33:25,046] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:33:25,109] {logging_mixin.py:115} INFO - [2022-09-24 19:33:25,109] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:33:25,123] {logging_mixin.py:115} INFO - [2022-09-24 19:33:25,123] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:33:25,140] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.630 seconds
+[2022-09-24 19:33:55,994] {processor.py:153} INFO - Started process (PID=3289) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:33:55,994] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:33:55,994] {logging_mixin.py:115} INFO - [2022-09-24 19:33:55,994] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:33:56,421] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:33:56,475] {logging_mixin.py:115} INFO - [2022-09-24 19:33:56,475] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:33:56,488] {logging_mixin.py:115} INFO - [2022-09-24 19:33:56,488] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:33:56,497] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.504 seconds
+[2022-09-24 19:34:27,324] {processor.py:153} INFO - Started process (PID=3290) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:34:27,324] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:34:27,325] {logging_mixin.py:115} INFO - [2022-09-24 19:34:27,325] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:34:27,742] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:34:27,795] {logging_mixin.py:115} INFO - [2022-09-24 19:34:27,795] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:34:27,810] {logging_mixin.py:115} INFO - [2022-09-24 19:34:27,810] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:34:27,819] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.496 seconds
+[2022-09-24 19:34:58,744] {processor.py:153} INFO - Started process (PID=3291) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:34:58,744] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:34:58,745] {logging_mixin.py:115} INFO - [2022-09-24 19:34:58,745] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:34:59,223] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:34:59,277] {logging_mixin.py:115} INFO - [2022-09-24 19:34:59,277] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:34:59,290] {logging_mixin.py:115} INFO - [2022-09-24 19:34:59,290] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:34:59,302] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.558 seconds
+[2022-09-24 19:35:30,146] {processor.py:153} INFO - Started process (PID=3293) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:35:30,146] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:35:30,146] {logging_mixin.py:115} INFO - [2022-09-24 19:35:30,146] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:35:30,645] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:35:30,700] {logging_mixin.py:115} INFO - [2022-09-24 19:35:30,700] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:35:30,713] {logging_mixin.py:115} INFO - [2022-09-24 19:35:30,713] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:35:30,723] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.578 seconds
+[2022-09-24 19:36:01,661] {processor.py:153} INFO - Started process (PID=3295) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:36:01,662] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:36:01,662] {logging_mixin.py:115} INFO - [2022-09-24 19:36:01,662] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:36:02,102] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:36:02,158] {logging_mixin.py:115} INFO - [2022-09-24 19:36:02,158] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:36:02,170] {logging_mixin.py:115} INFO - [2022-09-24 19:36:02,170] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:36:02,182] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.521 seconds
+[2022-09-24 19:36:33,234] {processor.py:153} INFO - Started process (PID=3296) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:36:33,234] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:36:33,234] {logging_mixin.py:115} INFO - [2022-09-24 19:36:33,234] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:36:33,683] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:36:33,736] {logging_mixin.py:115} INFO - [2022-09-24 19:36:33,735] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:36:33,748] {logging_mixin.py:115} INFO - [2022-09-24 19:36:33,748] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:36:33,759] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.526 seconds
+[2022-09-24 19:37:05,257] {processor.py:153} INFO - Started process (PID=3297) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:37:05,258] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:37:05,258] {logging_mixin.py:115} INFO - [2022-09-24 19:37:05,258] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:37:06,396] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:37:06,477] {logging_mixin.py:115} INFO - [2022-09-24 19:37:06,477] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:37:06,491] {logging_mixin.py:115} INFO - [2022-09-24 19:37:06,491] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:37:06,505] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.249 seconds
+[2022-09-24 19:37:38,018] {processor.py:153} INFO - Started process (PID=3301) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:37:38,018] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:37:38,018] {logging_mixin.py:115} INFO - [2022-09-24 19:37:38,018] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:37:39,081] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:37:39,160] {logging_mixin.py:115} INFO - [2022-09-24 19:37:39,160] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:37:39,173] {logging_mixin.py:115} INFO - [2022-09-24 19:37:39,173] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:37:39,182] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.165 seconds
+[2022-09-24 19:38:10,629] {processor.py:153} INFO - Started process (PID=3304) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:38:10,629] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:38:10,630] {logging_mixin.py:115} INFO - [2022-09-24 19:38:10,630] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:38:11,853] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:38:11,923] {logging_mixin.py:115} INFO - [2022-09-24 19:38:11,923] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:38:11,936] {logging_mixin.py:115} INFO - [2022-09-24 19:38:11,936] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:38:11,948] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.320 seconds
+[2022-09-24 19:38:42,863] {processor.py:153} INFO - Started process (PID=3305) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:38:42,863] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:38:42,863] {logging_mixin.py:115} INFO - [2022-09-24 19:38:42,863] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:38:43,374] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:38:43,426] {logging_mixin.py:115} INFO - [2022-09-24 19:38:43,426] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:38:43,439] {logging_mixin.py:115} INFO - [2022-09-24 19:38:43,439] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:38:43,454] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.592 seconds
+[2022-09-24 19:39:14,984] {processor.py:153} INFO - Started process (PID=3310) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:39:14,985] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:39:14,985] {logging_mixin.py:115} INFO - [2022-09-24 19:39:14,985] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:39:16,209] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:39:16,286] {logging_mixin.py:115} INFO - [2022-09-24 19:39:16,286] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:39:16,299] {logging_mixin.py:115} INFO - [2022-09-24 19:39:16,299] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:39:16,310] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.326 seconds
+[2022-09-24 19:39:47,932] {processor.py:153} INFO - Started process (PID=3313) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:39:47,937] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:39:47,937] {logging_mixin.py:115} INFO - [2022-09-24 19:39:47,937] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:39:49,278] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:39:49,354] {logging_mixin.py:115} INFO - [2022-09-24 19:39:49,354] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:39:49,367] {logging_mixin.py:115} INFO - [2022-09-24 19:39:49,367] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:39:49,380] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.446 seconds
+[2022-09-24 19:40:20,368] {processor.py:153} INFO - Started process (PID=3314) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:40:20,368] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:40:20,368] {logging_mixin.py:115} INFO - [2022-09-24 19:40:20,368] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:40:20,798] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:40:20,872] {logging_mixin.py:115} INFO - [2022-09-24 19:40:20,867] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:40:20,924] {logging_mixin.py:115} INFO - [2022-09-24 19:40:20,924] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:40:20,933] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.566 seconds
+[2022-09-24 19:40:52,210] {processor.py:153} INFO - Started process (PID=3317) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:40:52,210] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:40:52,210] {logging_mixin.py:115} INFO - [2022-09-24 19:40:52,210] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:40:52,643] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:40:52,695] {logging_mixin.py:115} INFO - [2022-09-24 19:40:52,695] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:40:52,711] {logging_mixin.py:115} INFO - [2022-09-24 19:40:52,710] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:40:52,722] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.512 seconds
+[2022-09-24 19:41:23,718] {processor.py:153} INFO - Started process (PID=3318) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:41:23,718] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:41:23,718] {logging_mixin.py:115} INFO - [2022-09-24 19:41:23,718] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:41:24,545] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:41:24,627] {logging_mixin.py:115} INFO - [2022-09-24 19:41:24,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:41:24,643] {logging_mixin.py:115} INFO - [2022-09-24 19:41:24,643] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:41:24,651] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.934 seconds
+[2022-09-24 19:41:56,113] {processor.py:153} INFO - Started process (PID=3320) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:41:56,114] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:41:56,114] {logging_mixin.py:115} INFO - [2022-09-24 19:41:56,114] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:41:57,149] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:41:57,222] {logging_mixin.py:115} INFO - [2022-09-24 19:41:57,222] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:41:57,235] {logging_mixin.py:115} INFO - [2022-09-24 19:41:57,235] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:41:57,246] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.134 seconds
+[2022-09-24 19:42:28,076] {processor.py:153} INFO - Started process (PID=3323) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:42:28,076] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:42:28,077] {logging_mixin.py:115} INFO - [2022-09-24 19:42:28,077] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:42:28,484] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:42:28,534] {logging_mixin.py:115} INFO - [2022-09-24 19:42:28,534] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:42:28,547] {logging_mixin.py:115} INFO - [2022-09-24 19:42:28,547] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:42:28,563] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.487 seconds
+[2022-09-24 19:42:59,381] {processor.py:153} INFO - Started process (PID=3328) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:42:59,381] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:42:59,381] {logging_mixin.py:115} INFO - [2022-09-24 19:42:59,381] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:42:59,798] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:42:59,851] {logging_mixin.py:115} INFO - [2022-09-24 19:42:59,851] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:42:59,864] {logging_mixin.py:115} INFO - [2022-09-24 19:42:59,864] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:42:59,875] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.495 seconds
+[2022-09-24 19:43:31,458] {processor.py:153} INFO - Started process (PID=3339) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:43:31,459] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:43:31,459] {logging_mixin.py:115} INFO - [2022-09-24 19:43:31,459] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:43:32,577] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:43:32,653] {logging_mixin.py:115} INFO - [2022-09-24 19:43:32,653] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:43:32,669] {logging_mixin.py:115} INFO - [2022-09-24 19:43:32,669] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:43:32,681] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.224 seconds
+[2022-09-24 19:44:03,551] {processor.py:153} INFO - Started process (PID=3340) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:44:03,552] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:44:03,552] {logging_mixin.py:115} INFO - [2022-09-24 19:44:03,552] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:44:04,002] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:44:04,056] {logging_mixin.py:115} INFO - [2022-09-24 19:44:04,055] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:44:04,069] {logging_mixin.py:115} INFO - [2022-09-24 19:44:04,068] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:44:04,078] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.528 seconds
+[2022-09-24 19:44:34,924] {processor.py:153} INFO - Started process (PID=3341) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:44:34,924] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:44:34,924] {logging_mixin.py:115} INFO - [2022-09-24 19:44:34,924] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:44:35,353] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:44:35,407] {logging_mixin.py:115} INFO - [2022-09-24 19:44:35,407] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:44:35,423] {logging_mixin.py:115} INFO - [2022-09-24 19:44:35,422] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:44:35,434] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.510 seconds
+[2022-09-24 19:46:37,849] {processor.py:153} INFO - Started process (PID=3343) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:46:37,850] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:46:37,850] {logging_mixin.py:115} INFO - [2022-09-24 19:46:37,850] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:46:39,503] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:46:39,678] {logging_mixin.py:115} INFO - [2022-09-24 19:46:39,678] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:46:39,720] {logging_mixin.py:115} INFO - [2022-09-24 19:46:39,719] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:46:39,729] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.880 seconds
+[2022-09-24 19:47:11,150] {processor.py:153} INFO - Started process (PID=3377) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:47:11,150] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:47:11,150] {logging_mixin.py:115} INFO - [2022-09-24 19:47:11,150] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:47:11,587] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:47:11,642] {logging_mixin.py:115} INFO - [2022-09-24 19:47:11,642] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:47:11,656] {logging_mixin.py:115} INFO - [2022-09-24 19:47:11,656] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:47:11,673] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.524 seconds
+[2022-09-24 19:47:42,507] {processor.py:153} INFO - Started process (PID=3379) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:47:42,507] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:47:42,508] {logging_mixin.py:115} INFO - [2022-09-24 19:47:42,508] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:47:42,937] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:47:42,991] {logging_mixin.py:115} INFO - [2022-09-24 19:47:42,991] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:47:43,004] {logging_mixin.py:115} INFO - [2022-09-24 19:47:43,004] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:47:43,015] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.509 seconds
+[2022-09-24 19:48:14,470] {processor.py:153} INFO - Started process (PID=3389) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:48:14,471] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:48:14,471] {logging_mixin.py:115} INFO - [2022-09-24 19:48:14,471] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:48:15,522] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:48:15,602] {logging_mixin.py:115} INFO - [2022-09-24 19:48:15,602] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:48:15,617] {logging_mixin.py:115} INFO - [2022-09-24 19:48:15,617] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:48:15,628] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.159 seconds
+[2022-09-24 19:48:47,066] {processor.py:153} INFO - Started process (PID=3393) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:48:47,066] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:48:47,067] {logging_mixin.py:115} INFO - [2022-09-24 19:48:47,067] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:48:48,213] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:48:48,292] {logging_mixin.py:115} INFO - [2022-09-24 19:48:48,292] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:48:48,309] {logging_mixin.py:115} INFO - [2022-09-24 19:48:48,309] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:48:48,323] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.258 seconds
+[2022-09-24 19:49:19,923] {processor.py:153} INFO - Started process (PID=3409) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:49:19,923] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:49:19,923] {logging_mixin.py:115} INFO - [2022-09-24 19:49:19,923] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:49:20,739] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:49:20,819] {logging_mixin.py:115} INFO - [2022-09-24 19:49:20,819] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:49:20,837] {logging_mixin.py:115} INFO - [2022-09-24 19:49:20,837] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:49:20,847] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.924 seconds
+[2022-09-24 19:49:51,709] {processor.py:153} INFO - Started process (PID=3412) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:49:51,709] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:49:51,709] {logging_mixin.py:115} INFO - [2022-09-24 19:49:51,709] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:49:52,265] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:49:52,343] {logging_mixin.py:115} INFO - [2022-09-24 19:49:52,343] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:49:52,358] {logging_mixin.py:115} INFO - [2022-09-24 19:49:52,358] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:49:52,370] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.661 seconds
+[2022-09-24 19:50:23,966] {processor.py:153} INFO - Started process (PID=3413) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:50:23,966] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:50:23,966] {logging_mixin.py:115} INFO - [2022-09-24 19:50:23,966] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:50:24,921] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:50:24,992] {logging_mixin.py:115} INFO - [2022-09-24 19:50:24,992] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:50:25,007] {logging_mixin.py:115} INFO - [2022-09-24 19:50:25,007] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:50:25,023] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.058 seconds
+[2022-09-24 19:50:56,391] {processor.py:153} INFO - Started process (PID=3427) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:50:56,392] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:50:56,392] {logging_mixin.py:115} INFO - [2022-09-24 19:50:56,392] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:50:57,438] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:50:57,531] {logging_mixin.py:115} INFO - [2022-09-24 19:50:57,531] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:50:57,549] {logging_mixin.py:115} INFO - [2022-09-24 19:50:57,549] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:50:57,561] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.171 seconds
+[2022-09-24 19:51:29,160] {processor.py:153} INFO - Started process (PID=3431) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:51:29,161] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:51:29,161] {logging_mixin.py:115} INFO - [2022-09-24 19:51:29,161] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:51:30,338] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:51:30,516] {logging_mixin.py:115} INFO - [2022-09-24 19:51:30,516] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:51:30,531] {logging_mixin.py:115} INFO - [2022-09-24 19:51:30,531] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:51:30,547] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.388 seconds
+[2022-09-24 19:52:02,941] {processor.py:153} INFO - Started process (PID=3433) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:52:02,941] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:52:02,942] {logging_mixin.py:115} INFO - [2022-09-24 19:52:02,942] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:52:04,002] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:52:04,146] {logging_mixin.py:115} INFO - [2022-09-24 19:52:04,146] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:52:04,165] {logging_mixin.py:115} INFO - [2022-09-24 19:52:04,165] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:52:04,183] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.242 seconds
+[2022-09-24 19:52:35,914] {processor.py:153} INFO - Started process (PID=3440) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:52:35,915] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:52:35,915] {logging_mixin.py:115} INFO - [2022-09-24 19:52:35,915] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:52:36,984] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:52:37,057] {logging_mixin.py:115} INFO - [2022-09-24 19:52:37,057] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:52:37,070] {logging_mixin.py:115} INFO - [2022-09-24 19:52:37,070] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:52:37,079] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.166 seconds
+[2022-09-24 19:53:08,531] {processor.py:153} INFO - Started process (PID=3444) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:53:08,531] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:53:08,532] {logging_mixin.py:115} INFO - [2022-09-24 19:53:08,532] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:53:09,562] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:53:09,636] {logging_mixin.py:115} INFO - [2022-09-24 19:53:09,635] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:53:09,653] {logging_mixin.py:115} INFO - [2022-09-24 19:53:09,652] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:53:09,664] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 1.134 seconds
+[2022-09-24 19:53:41,160] {processor.py:153} INFO - Started process (PID=3454) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:53:41,160] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:53:41,160] {logging_mixin.py:115} INFO - [2022-09-24 19:53:41,160] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:53:42,030] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:53:42,096] {logging_mixin.py:115} INFO - [2022-09-24 19:53:42,096] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:53:42,111] {logging_mixin.py:115} INFO - [2022-09-24 19:53:42,111] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:53:42,119] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.960 seconds
+[2022-09-24 19:54:13,107] {processor.py:153} INFO - Started process (PID=3457) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:54:13,107] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:54:13,108] {logging_mixin.py:115} INFO - [2022-09-24 19:54:13,108] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:54:13,605] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:54:13,663] {logging_mixin.py:115} INFO - [2022-09-24 19:54:13,663] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:54:13,678] {logging_mixin.py:115} INFO - [2022-09-24 19:54:13,678] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:54:13,695] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.588 seconds
+[2022-09-24 19:54:44,643] {processor.py:153} INFO - Started process (PID=3464) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:54:44,643] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:54:44,643] {logging_mixin.py:115} INFO - [2022-09-24 19:54:44,643] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:54:45,084] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:54:45,141] {logging_mixin.py:115} INFO - [2022-09-24 19:54:45,141] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:54:45,156] {logging_mixin.py:115} INFO - [2022-09-24 19:54:45,156] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:54:45,173] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.530 seconds
+[2022-09-24 19:55:16,045] {processor.py:153} INFO - Started process (PID=3477) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:55:16,045] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:55:16,045] {logging_mixin.py:115} INFO - [2022-09-24 19:55:16,045] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:55:16,462] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:55:16,514] {logging_mixin.py:115} INFO - [2022-09-24 19:55:16,513] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:55:16,528] {logging_mixin.py:115} INFO - [2022-09-24 19:55:16,527] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:55:16,543] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.499 seconds
+[2022-09-24 19:55:47,401] {processor.py:153} INFO - Started process (PID=3479) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:55:47,402] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:55:47,402] {logging_mixin.py:115} INFO - [2022-09-24 19:55:47,402] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:55:47,820] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:55:47,882] {logging_mixin.py:115} INFO - [2022-09-24 19:55:47,881] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:55:47,898] {logging_mixin.py:115} INFO - [2022-09-24 19:55:47,897] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:55:47,909] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.508 seconds
+[2022-09-24 19:56:18,759] {processor.py:153} INFO - Started process (PID=3480) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:56:18,759] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:56:18,759] {logging_mixin.py:115} INFO - [2022-09-24 19:56:18,759] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:56:19,152] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:56:19,201] {logging_mixin.py:115} INFO - [2022-09-24 19:56:19,201] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:56:19,213] {logging_mixin.py:115} INFO - [2022-09-24 19:56:19,213] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:56:19,230] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.471 seconds
+[2022-09-24 19:56:49,992] {processor.py:153} INFO - Started process (PID=3482) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:56:49,993] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:56:49,993] {logging_mixin.py:115} INFO - [2022-09-24 19:56:49,993] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:56:50,395] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:56:50,446] {logging_mixin.py:115} INFO - [2022-09-24 19:56:50,445] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:56:50,458] {logging_mixin.py:115} INFO - [2022-09-24 19:56:50,458] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:56:50,473] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.481 seconds
+[2022-09-24 19:57:21,256] {processor.py:153} INFO - Started process (PID=3483) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:57:21,257] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:57:21,257] {logging_mixin.py:115} INFO - [2022-09-24 19:57:21,257] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:57:21,676] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:57:21,728] {logging_mixin.py:115} INFO - [2022-09-24 19:57:21,728] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:57:21,741] {logging_mixin.py:115} INFO - [2022-09-24 19:57:21,741] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:57:21,756] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.500 seconds
+[2022-09-24 19:57:52,546] {processor.py:153} INFO - Started process (PID=3484) to work on /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:57:52,546] {processor.py:641} INFO - Processing file /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py for tasks to queue
+[2022-09-24 19:57:52,546] {logging_mixin.py:115} INFO - [2022-09-24 19:57:52,546] {dagbag.py:508} INFO - Filling up the DagBag from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:57:52,939] {processor.py:651} INFO - DAG(s) dict_keys(['gmailPipelineV1']) retrieved from /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py
+[2022-09-24 19:57:52,994] {logging_mixin.py:115} INFO - [2022-09-24 19:57:52,994] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-09-24 19:57:53,006] {logging_mixin.py:115} INFO - [2022-09-24 19:57:53,006] {dag.py:2968} INFO - Setting next_dagrun for gmailPipelineV1 to 2022-09-24T00:00:00+00:00, run_after=2022-09-25T00:00:00+00:00
+[2022-09-24 19:57:53,022] {processor.py:161} INFO - Processing /Users/abhaymone/src/dev/sand/MANAGE-GMAIL/dags/gmailDag.py took 0.476 seconds

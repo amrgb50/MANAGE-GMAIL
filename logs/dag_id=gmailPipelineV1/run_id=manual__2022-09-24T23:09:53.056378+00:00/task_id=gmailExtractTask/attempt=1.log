@@ -1,0 +1,26 @@
+[2022-09-24 19:09:56,028] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipelineV1.gmailExtractTask manual__2022-09-24T23:09:53.056378+00:00 [queued]>
+[2022-09-24 19:09:56,035] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipelineV1.gmailExtractTask manual__2022-09-24T23:09:53.056378+00:00 [queued]>
+[2022-09-24 19:09:56,035] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 19:09:56,035] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-09-24 19:09:56,035] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 19:09:56,046] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): gmailExtractTask> on 2022-09-24 23:09:53.056378+00:00
+[2022-09-24 19:09:56,048] {standard_task_runner.py:52} INFO - Started process 2376 to run task
+[2022-09-24 19:09:56,054] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'gmailPipelineV1', 'gmailExtractTask', 'manual__2022-09-24T23:09:53.056378+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/gmailDag.py', '--cfg-path', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmp6x2i09pj', '--error-file', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmp81mxars0']
+[2022-09-24 19:09:56,056] {standard_task_runner.py:80} INFO - Job 121: Subtask gmailExtractTask
+[2022-09-24 19:09:56,105] {task_command.py:371} INFO - Running <TaskInstance: gmailPipelineV1.gmailExtractTask manual__2022-09-24T23:09:53.056378+00:00 [running]> on host abhays-mbp.lan
+[2022-09-24 19:09:56,162] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=gmailPipelineV1
+AIRFLOW_CTX_TASK_ID=gmailExtractTask
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-24T23:09:53.056378+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-24T23:09:53.056378+00:00
+[2022-09-24 19:09:56,178] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2022-09-24 19:09:56,534] {logging_mixin.py:115} INFO - No emails to read!!
+Attention empty msglist is being passed
+[2022-09-24 19:09:56,535] {python.py:173} INFO - Done. Returned value was: None
+[2022-09-24 19:09:56,548] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=gmailPipelineV1, task_id=gmailExtractTask, execution_date=20220924T230953, start_date=20220924T230956, end_date=20220924T230956
+[2022-09-24 19:09:56,600] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-24 19:09:56,647] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,81 @@
+[2022-09-17 20:14:29,325] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipelineV1.gmailExtractTask manual__2022-09-18T00:14:25.844858+00:00 [queued]>
+[2022-09-17 20:14:29,331] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: gmailPipelineV1.gmailExtractTask manual__2022-09-18T00:14:25.844858+00:00 [queued]>
+[2022-09-17 20:14:29,331] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 20:14:29,331] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-09-17 20:14:29,332] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 20:14:29,341] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): gmailExtractTask> on 2022-09-18 00:14:25.844858+00:00
+[2022-09-17 20:14:29,350] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'gmailPipelineV1', 'gmailExtractTask', 'manual__2022-09-18T00:14:25.844858+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/gmailDag.py', '--cfg-path', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmp0xz55gs5', '--error-file', '/var/folders/mm/xv24gcjj46l_jx1m76p5bgy80000gn/T/tmpiw973zb1']
+[2022-09-17 20:14:29,353] {standard_task_runner.py:80} INFO - Job 96: Subtask gmailExtractTask
+[2022-09-17 20:14:29,358] {standard_task_runner.py:52} INFO - Started process 8113 to run task
+[2022-09-17 20:14:29,486] {task_command.py:371} INFO - Running <TaskInstance: gmailPipelineV1.gmailExtractTask manual__2022-09-18T00:14:25.844858+00:00 [running]> on host abhays-mbp.lan
+[2022-09-17 20:14:29,998] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=gmailPipelineV1
+AIRFLOW_CTX_TASK_ID=gmailExtractTask
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-18T00:14:25.844858+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-18T00:14:25.844858+00:00
+[2022-09-17 20:14:30,035] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2022-09-17 20:14:30,683] {logging_mixin.py:115} INFO - noreply@medium.com
+[2022-09-17 20:14:30,859] {logging_mixin.py:115} INFO - no-reply@coinbase.com
+[2022-09-17 20:14:31,065] {logging_mixin.py:115} INFO - no-reply@coinbase.com
+[2022-09-17 20:14:31,281] {logging_mixin.py:115} INFO - flights@emails.flyfrontier.com
+[2022-09-17 20:14:31,515] {logging_mixin.py:115} INFO - Coursera@email.coursera.org
+[2022-09-17 20:14:31,707] {logging_mixin.py:115} INFO - info@mail.coinbase.com
+[2022-09-17 20:14:31,987] {logging_mixin.py:115} INFO - manikandan.b@vdartinc.com
+[2022-09-17 20:14:32,193] {logging_mixin.py:115} INFO - RaleighWater_DoNotReply@payments.raleighnc.gov
+[2022-09-17 20:14:32,404] {logging_mixin.py:115} INFO - mint@em1.mint.intuit.com
+[2022-09-17 20:14:32,602] {logging_mixin.py:115} INFO - noreply@medium.com
+[2022-09-17 20:14:33,010] {logging_mixin.py:115} INFO - <RaleighWater_DoNotReply@raleighnc.gov>
+[2022-09-17 20:14:33,216] {logging_mixin.py:115} INFO - newsletters-noreply@linkedin.com
+[2022-09-17 20:14:33,423] {logging_mixin.py:115} INFO - noreply@wise.com
+[2022-09-17 20:14:33,630] {logging_mixin.py:115} INFO - vijay.kumar@lenorasystems.com
+[2022-09-17 20:14:33,887] {logging_mixin.py:115} INFO - Coursera@email.coursera.org
+[2022-09-17 20:14:34,139] {logging_mixin.py:115} INFO - info@email.meetup.com
+[2022-09-17 20:14:34,355] {logging_mixin.py:115} INFO - email@e.ramseysolutions.com
+[2022-09-17 20:14:34,533] {logging_mixin.py:115} INFO - no-reply@m.mail.coursera.org
+[2022-09-17 20:14:34,754] {logging_mixin.py:115} INFO - aws-marketing-email-replies@amazon.com
+[2022-09-17 20:14:34,960] {logging_mixin.py:115} INFO - noreply@medium.com
+[2022-09-17 20:14:35,163] {logging_mixin.py:115} INFO - no-reply@m.mail.coursera.org
+[2022-09-17 20:14:35,369] {logging_mixin.py:115} INFO - no-reply@coinbase.com
+[2022-09-17 20:14:35,573] {logging_mixin.py:115} INFO - noreply@wise.com
+[2022-09-17 20:14:35,829] {logging_mixin.py:115} INFO - americanexpress@member.americanexpress.com
+[2022-09-17 20:14:36,009] {logging_mixin.py:115} INFO - Coursera@email.coursera.org
+[2022-09-17 20:14:36,193] {logging_mixin.py:115} INFO - inmail-hit-reply@linkedin.com
+[2022-09-17 20:14:36,390] {logging_mixin.py:115} INFO - inmail-hit-reply@linkedin.com
+[2022-09-17 20:14:36,702] {logging_mixin.py:115} INFO - newsletter@mail.coinbase.com
+[2022-09-17 20:14:36,904] {logging_mixin.py:115} INFO - AWS-Raleigh-list@email.meetup.com
+[2022-09-17 20:14:37,136] {logging_mixin.py:115} INFO - newsletters-noreply@linkedin.com
+[2022-09-17 20:14:37,416] {logging_mixin.py:115} INFO - americanexpress@member.americanexpress.com
+[2022-09-17 20:14:37,619] {logging_mixin.py:115} INFO - noreply@waze.com
+[2022-09-17 20:14:37,827] {logging_mixin.py:115} INFO - Chase@e.chase.com
+[2022-09-17 20:14:38,030] {logging_mixin.py:115} INFO - email@e.ramseysolutions.com
+[2022-09-17 20:14:38,236] {logging_mixin.py:115} INFO - mint@em1.mint.intuit.com
+[2022-09-17 20:14:38,441] {logging_mixin.py:115} INFO - mint@em1.mint.intuit.com
+[2022-09-17 20:14:38,645] {logging_mixin.py:115} INFO - noreply@wise.com
+[2022-09-17 20:14:38,850] {logging_mixin.py:115} INFO - noreply@wise.com
+[2022-09-17 20:14:39,055] {logging_mixin.py:115} INFO - info@mail.coinbase.com
+[2022-09-17 20:14:39,463] {logging_mixin.py:115} INFO - chase@email.chase.com
+[2022-09-17 20:14:39,782] {logging_mixin.py:115} INFO - americanexpress@member.americanexpress.com
+[2022-09-17 20:14:40,079] {logging_mixin.py:115} INFO - noreply@kaggle.com
+[2022-09-17 20:14:40,284] {logging_mixin.py:115} INFO - americanexpress@member.americanexpress.com
+[2022-09-17 20:14:40,490] {logging_mixin.py:115} INFO - no-reply@noreply.gopuff.com
+[2022-09-17 20:14:40,800] {logging_mixin.py:115} INFO - no-reply@m.mail.coursera.org
+[2022-09-17 20:14:41,103] {logging_mixin.py:115} INFO - newsletters-noreply@linkedin.com
+[2022-09-17 20:14:41,308] {logging_mixin.py:115} INFO - email@e.ramseysolutions.com
+[2022-09-17 20:14:41,515] {logging_mixin.py:115} INFO - no-reply@coinbase.com
+[2022-09-17 20:14:41,821] {logging_mixin.py:115} INFO - no-reply@coinbase.com
+[2022-09-17 20:14:42,128] {logging_mixin.py:115} INFO - venmo@email.venmo.com
+[2022-09-17 20:14:42,388] {logging_mixin.py:115} INFO - noreply@medium.com
+[2022-09-17 20:14:42,637] {logging_mixin.py:115} INFO - noreply@wise.com
+[2022-09-17 20:14:42,948] {logging_mixin.py:115} INFO - noreply@everlance.com
+[2022-09-17 20:14:43,152] {logging_mixin.py:115} INFO - jobs-noreply@linkedin.com
+[2022-09-17 20:14:43,370] {logging_mixin.py:115} INFO - jobs-noreply@linkedin.com
+[2022-09-17 20:14:43,661] {logging_mixin.py:115} INFO - vijay.kumar@lenorasystems.com
+[2022-09-17 20:14:43,878] {logging_mixin.py:115} INFO - no-reply@lyftmail.com
+[2022-09-17 20:14:43,886] {python.py:173} INFO - Done. Returned value was: None
+[2022-09-17 20:14:43,895] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=gmailPipelineV1, task_id=gmailExtractTask, execution_date=20220918T001425, start_date=20220918T001429, end_date=20220918T001443
+[2022-09-17 20:14:43,936] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-17 20:14:43,962] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

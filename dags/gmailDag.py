@@ -2,12 +2,12 @@ from email.policy import default
 from airflow import DAG
 from datetime import datetime
 from airflow.operators.python import PythonOperator
-import sys
-sys.path.insert(1,'/Users/abhaymone/src/dev/sand/MANAGE-GMAIL')
-from gmailAuthentication import authentication
-from gmailExtract import gmailExtract
-from gmailTransformations import dataTransformation
-from gmailLoad import targetLoad
+#import sys
+#sys.path.insert(1,'/Users/abhaymone/src/dev/sand/MANAGE-GMAIL')
+from AppCode import authentication
+from AppCode import gmailExtract
+from AppCode import dataTransformation
+from AppCode import targetLoad
 """def pushAuthentication():
     auth = authentication()
     return auth.getgmailAuthentication()
@@ -38,7 +38,7 @@ def pullGmailLoad():
     tbLoad = targetLoad(sqlengine=auth.getdbconn())
     tbLoad.gmailMsgLoad()
 
-DAG = DAG(
+mydag = DAG(
 dag_id='gmailPipelineV1',
 start_date=datetime(2022,8,21,16,20,0),
 schedule_interval='@daily'
@@ -53,19 +53,19 @@ gmailAuthTask = PythonOperator(
 gmailExtractTask = PythonOperator(
         task_id = 'gmailExtractTask',
         python_callable=pullGmailExtract,
-        dag = DAG
+        dag = mydag
     )
 
 gmailTransformationTask = PythonOperator(
         task_id = 'gmailTransformationTask',
         python_callable=gmailTransformatn,
-        dag = DAG
+        dag = mydag
     )
 
 gmailTbLoadTask = PythonOperator(
         task_id = 'gmailTbLoadTask',
         python_callable=pullGmailLoad,
-        dag = DAG
+        dag = mydag
     )
 
 gmailExtractTask.set_downstream(gmailTransformationTask)

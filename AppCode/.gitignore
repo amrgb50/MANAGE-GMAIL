@@ -1,0 +1,15 @@
+bin/
+data/
+include/
+lib/
+venv/
+webserver_config.py
+*json
+dataviz*
+share/
+airflow.db
+airflow.cfg
+airflow*
+webserver_config.py
+logs/
+config.cfg
