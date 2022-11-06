@@ -1,0 +1,9 @@
+data/
+venv/
+share/
+bin/
+.vscode/
+lib/
+include/
+share/
+.mypy_cache/
